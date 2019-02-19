@@ -1,0 +1,4 @@
+# Referenced at E:\STILLFORCE LTD\market place\woocommerce\app\build\intermediates\merged_manifests\debug\AndroidManifest.xml:68
+-keep class android.support.v4.app.CoreComponentFactory { <init>(); }
+# Referenced at E:\STILLFORCE LTD\market place\woocommerce\app\build\intermediates\merged_manifests\debug\AndroidManifest.xml:68
+-keep class com.yellomark.androidwoocommerce.app.App { <init>(); }
