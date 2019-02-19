@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\STILLFORCE LTD\\market place\\woocommerce\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw400dp-v13\\values-sw400dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ngassam\\.gradle\\caches\\transforms-1\\files-1.1\\card-form-3.5.0.aar\\2ec0117b3c08ef2e266cb4178923efb3\\res\\values-sw400dp-v13\\values-sw400dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,112,177,253,327,401,475,516,584",
+                        "endColumns": "56,64,75,73,73,73,40,67,59",
+                        "endOffsets": "107,172,248,322,396,470,511,579,639"
+                    }
+                }
+            ]
+        }
+    ]
+}
