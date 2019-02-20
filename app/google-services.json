@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "363680263570",
+    "firebase_url": "https://yello-mark.firebaseio.com",
+    "project_id": "yello-mark",
+    "storage_bucket": "yello-mark.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:363680263570:android:7c677e1eee221295",
+        "android_client_info": {
+          "package_name": "com.yellomark.androidwoocommerce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "363680263570-0tofo9hoc1o8noiui0bnh91opf8i0dru.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yellomark.androidwoocommerce",
+            "certificate_hash": "48180b1a570465583a92e8c1e1823a7521a7a5bd"
+          }
+        },
+        {
+          "client_id": "363680263570-30nc0mfcdl1horkvioqkm37g9v8rklrc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yellomark.androidwoocommerce",
+            "certificate_hash": "ad1d661c2fb8d12c0ce5c88bef72c236b488032f"
+          }
+        },
+        {
+          "client_id": "363680263570-g1903476mtd9g95u7gqfmf3cpn094ume.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCesa-NM26UY0zQ4kqjWb7eeSMT8ybo5J8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "363680263570-g1903476mtd9g95u7gqfmf3cpn094ume.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

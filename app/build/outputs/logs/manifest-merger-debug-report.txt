@@ -1,0 +1,1273 @@
+-- Merging decision tree log ---
+provider#android.support.v4.content.FileProvider
+INJECTED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:41:9-49:20
+	android:grantUriPermissions
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:45:13-47
+	android:authorities
+		INJECTED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:43:13-60
+	android:exported
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:44:13-37
+	android:name
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:42:13-67
+data
+INJECTED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:110:17-69
+	android:scheme
+		INJECTED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:110:23-66
+manifest
+ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:2:1-148:12
+INJECTED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:2:1-148:12
+INJECTED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:2:1-148:12
+INJECTED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:2:1-148:12
+MERGED from [com.android.support:multidex:1.0.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\multidex-1.0.3.aar\4866947bf65fbb9391873312c3936ac6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.braintreepayments.api:drop-in:3.7.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\drop-in-3.7.1.aar\b13f406652f3faefa989045e178d84cc\AndroidManifest.xml:2:1-32:12
+MERGED from [com.braintreepayments:card-form:3.5.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\card-form-3.5.0.aar\21e3f41d6ddd1f1e0ba53149a1f0a17e\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:design:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\287fca176346632406e28b5247ee2e11\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:preference-v14:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\preference-v14-28.0.0.aar\cd06c9c8b9bcbeb0c0f08513213d5932\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:preference-v7:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\preference-v7-28.0.0.aar\5d1d7bf433717700300bca40555c4c05\AndroidManifest.xml:17:1-22:12
+MERGED from [com.bogdwellers:pinchtozoom:0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\pinchtozoom-0.1.aar\13519e686f8375f2ec3f99e806353f1a\AndroidManifest.xml:2:1-17:12
+MERGED from [com.crystal:crystalrangeseekbar:1.1.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\crystalrangeseekbar-1.1.1.aar\cd35a3f827f52574a852229f6237ec57\AndroidManifest.xml:2:1-17:12
+MERGED from [com.github.apl-devs:appintro:v4.2.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\appintro-v4.2.3.aar\ac6974c297a27d01a9d52077d2a8d468\AndroidManifest.xml:2:1-13:12
+MERGED from [com.facebook.android:facebook-android-sdk:4.40.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.40.0.aar\be7d116b4f46d16ae2528492de005b87\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-login:4.40.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\facebook-login-4.40.0.aar\f3fe1f4505a66c431774ad962b0228cd\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-share:4.40.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\facebook-share-4.40.0.aar\7742b32870d402c836db933cdd417941\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-common:4.40.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\facebook-common-4.40.0.aar\154712c807d58534f77cc2a97eabead2\AndroidManifest.xml:21:1-37:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\dcc3a1dfc5a3bc3baff8e6240e79cefa\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\b8c314b33a1196cfae76b852150ccff0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\70dac2f0fbdba0f807433f44c14ba19f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:2:1-108:12
+MERGED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.1.0.aar\de5146f9a2f9fee694bedd55ff791083\AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.4.aar\2d5b18bf3b1b0c3e4f3b51a81d0bacda\AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-auth-16.0.1.aar\04687f4071aac602da1bee109cf5d443\AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.1.0.aar\f00c5492b0167e58627e59b5bdd5f064\AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-location-16.0.0.aar\435f08c763367646a841fdcabe813c50\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-gcm:12.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-gcm-12.0.1.aar\b8aad7c0de66bc6767b8f4b784e874f3\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.firebase:firebase-ads:17.1.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-ads-17.1.3.aar\6d5bcf78d4ae490fca266a50dd1b0860\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads:17.1.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-ads-17.1.3.aar\c252889b7fc367601e6f17b4e6a6efde\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-analytics:16.3.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.3.0.aar\86734e32583a33800b8953fcb544d7a1\AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-flags-16.0.1.aar\943ecadaf89f7fd021f930ff483d94db\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-auth-interop-16.0.1.aar\2e82789895199242ba603a07b98a4641\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-16.0.0.aar\2cee658c06fca228c0fdc8fca406f685\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-16.0.0.aar\7cd8d691f9e7402fd934431394f7b752\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-iid:12.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-iid-12.0.1.aar\36e8867ec205412c1158d28612d5b042\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-measurement-api:16.3.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.3.0.aar\856889a413025a32254fffec7ad5d62d\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-analytics-impl:16.3.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.3.0.aar\901195fc4e5e8f3089bb539820d8b7d2\AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\e4df406626c0b39f09430d391d7f040c\AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\168a70691f6caa2dea9b5248e1053f15\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\fa3ab03b57e0b5d9fa7864d1ee6f4e08\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\8f393d3d29a13b642c74dde2cae08c5b\AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\35b4fd5d726e552787400ad695e9df85\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.1.aar\fbf2c06fa180fa23036c345ff588f255\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\6d56d9ee25193fc31d39249bb9a3b928\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-16.0.0.aar\b42f47d4346d2c9af22dccff82e89d16\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-ads-lite:17.1.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-17.1.3.aar\d4c700a550188cb53a066929e5c7e481\AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.android.gms:play-services-gass:17.1.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-gass-17.1.3.aar\b2560475972222df4a4afe82f8b1030b\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.3.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-api-16.3.0.aar\e4cfe9754cdbc1bf7a34031b647885a2\AndroidManifest.xml:17:1-30:12
+MERGED from [com.google.android.gms:play-services-measurement-base:16.3.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.3.0.aar\5b7181a2e39561e8c9698b7c14e1af14\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\434a5286d01b77d5a7af44bb57232f2d\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.1.0.aar\af74d1f471b127a8b1f7e489435de367\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\f1834551bafe297271e491a7ca146fd5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.16.0.aar\556d69c27bd9b023f6b542216f9ffb32\AndroidManifest.xml:2:1-28:12
+MERGED from [com.daimajia.slider:library:1.1.5] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\library-1.1.5.aar\c8d67b7a2e8c581d6f707f20773f9ba8\AndroidManifest.xml:2:1-14:12
+MERGED from [hyogeun.github.com.colorratingbar:ColorRatingBar:1.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\ColorRatingBar-1.0.1.aar\1a1c27e9930ce2ab58934c9392389ae2\AndroidManifest.xml:2:1-17:12
+MERGED from [com.stripe:stripe-android:2.0.2] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\stripe-android-2.0.2.aar\8c45d587176e8a75f6f8961d26feca7d\AndroidManifest.xml:2:1-11:12
+MERGED from [com.braintreepayments.api:braintree:2.18.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\braintree-2.18.1.aar\d776384491ac3fff37658df18a7d9969\AndroidManifest.xml:2:1-26:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\4e1a4fdd78784adc968fc01ba1586d41\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\525a08c6c273a77286006fef2e2bf5c2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.paypal.android.sdk:paypal-one-touch:2.18.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\paypal-one-touch-2.18.1.aar\9614daf4cf0a439d38b7f5674bc1d4d9\AndroidManifest.xml:2:1-13:12
+MERGED from [com.braintreepayments.api:core:2.18.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\core-2.18.1.aar\de5168b6e9ee867d6190e910dfc5c442\AndroidManifest.xml:2:1-11:12
+MERGED from [com.braintreepayments:browser-switch:0.1.7] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\browser-switch-0.1.7.aar\7e8eea8e224712a4e467808709a0e929\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:customtabs:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\customtabs-28.0.0.aar\96122990a47e33e365382eab61ad928a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\91ff57093114ee7877c0f6174ae8dc92\AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.android:facebook-places:4.40.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\facebook-places-4.40.0.aar\f9d0cf7bf49a09afb9e1be0a5442a921\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-applinks:4.40.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\facebook-applinks-4.40.0.aar\698935aafcd4e42ec5d72ccc1e1afa21\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-messenger:4.40.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\facebook-messenger-4.40.0.aar\14332f320868263fdade1a53c8bc01f6\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-marketing:4.40.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\facebook-marketing-4.40.0.aar\177d6c414b3f3ec534f8a4071ad430b4\AndroidManifest.xml:21:1-35:12
+MERGED from [com.facebook.android:facebook-core:4.40.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\facebook-core-4.40.0.aar\4430a0825dbae39705c0ae739bcc73bc\AndroidManifest.xml:21:1-53:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\85c0669c4d095a6b0f3797459df45644\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\604d6a38164fd989e6355ddac8fd34b5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\5c619857fc230aceb61584811a070047\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\a14c514f4af47aa855b22774542a8f05\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\969bc8f18266dced04a86dddd8d8936c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\bc5735275ef3457862a5d3c4a2031a9d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\09d68de776681d6a2a9efdd7bcbf4d11\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\9e1488ae3b05369cf01c300a20dae4c4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\35b08993be89bd66fdfaeec3b74c4bde\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\cc9ca92b2166ccebeed2dbdf9d5fe9a2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\2dd52b74eb0b3e12ebf74db638580868\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\a9ac2361b4ea64d57ac3d62499d73955\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\9fc9c0d7773b1d0ff0d5f53f0cc457d5\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\a3f2e25a9a6d0d908b3197c1ea540915\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\e7778f1b2f0b8b83c0bb6df4a91a48de\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\69e24e75c93c4855fd89f70329995521\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\33a5483730aaa6cc42f8d26a3f1fedaa\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\08883119ff690af12e7493955659dce4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\f7815300ad7ba2dae0060a5399c747b6\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\206faa06a07eb5cb4eda814bd7db9074\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\07e649763e41fbb3d3e855a0a0a9d61c\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\9fc4cc0362bed6533500f66c70510007\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\482a8344f3a3285489e916cb2643f16e\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\60b6dd1773d39c04c54fe62d2f606ff6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.braintreepayments.api:visa-checkout:1.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\visa-checkout-1.0.0.aar\1bff883c6d633badb2f95945149998c8\AndroidManifest.xml:2:1-12:12
+MERGED from [io.card:android-sdk:5.5.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\android-sdk-5.5.1.aar\a6a6e79cfd389f2d3a847b6d4fc87863\AndroidManifest.xml:2:1-26:12
+MERGED from [com.paypal.android.sdk:data-collector:2.18.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\data-collector-2.18.1.aar\f5cc6b4f9cba589841ac568023dfbff0\AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.gms:play-services-gcm-license:12.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-gcm-license-12.0.1.aar\d2aac15c9992155679e6c280b0710112\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-ads-base:17.1.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-ads-base-17.1.3.aar\29b279934bfc3b1620cf4fcaf2ba497f\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-iid-license:12.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-iid-license-12.0.1.aar\db9295adf352a1a0b7c8a1e413613a26\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:2:1-148:12
+INJECTED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:2:1-148:12
+INJECTED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:2:1-148:12
+	package
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:5:5-47
+		INJECTED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml
+		INJECTED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:2:1-148:12
+		INJECTED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:4:5-51
+	android:versionCode
+		INJECTED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:2:1-148:12
+		INJECTED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:3:5-63
+uses-permission#android.permission.CAMERA
+ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:7:5-65
+MERGED from [io.card:android-sdk:5.5.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\android-sdk-5.5.1.aar\a6a6e79cfd389f2d3a847b6d4fc87863\AndroidManifest.xml:9:5-65
+MERGED from [io.card:android-sdk:5.5.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\android-sdk-5.5.1.aar\a6a6e79cfd389f2d3a847b6d4fc87863\AndroidManifest.xml:9:5-65
+	android:name
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:7:22-62
+uses-permission#android.permission.INTERNET
+ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:8:5-67
+MERGED from [com.braintreepayments.api:drop-in:3.7.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\drop-in-3.7.1.aar\b13f406652f3faefa989045e178d84cc\AndroidManifest.xml:13:5-67
+MERGED from [com.braintreepayments.api:drop-in:3.7.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\drop-in-3.7.1.aar\b13f406652f3faefa989045e178d84cc\AndroidManifest.xml:13:5-67
+MERGED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:17:5-67
+MERGED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:17:5-67
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.1.0.aar\f00c5492b0167e58627e59b5bdd5f064\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.1.0.aar\f00c5492b0167e58627e59b5bdd5f064\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-gcm:12.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-gcm-12.0.1.aar\b8aad7c0de66bc6767b8f4b784e874f3\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-gcm:12.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-gcm-12.0.1.aar\b8aad7c0de66bc6767b8f4b784e874f3\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.3.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.3.0.aar\86734e32583a33800b8953fcb544d7a1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.3.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.3.0.aar\86734e32583a33800b8953fcb544d7a1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-iid:12.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-iid-12.0.1.aar\36e8867ec205412c1158d28612d5b042\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-iid:12.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-iid-12.0.1.aar\36e8867ec205412c1158d28612d5b042\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.3.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.3.0.aar\901195fc4e5e8f3089bb539820d8b7d2\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.3.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.3.0.aar\901195fc4e5e8f3089bb539820d8b7d2\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\e4df406626c0b39f09430d391d7f040c\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\e4df406626c0b39f09430d391d7f040c\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:17.1.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-17.1.3.aar\d4c700a550188cb53a066929e5c7e481\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:17.1.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-17.1.3.aar\d4c700a550188cb53a066929e5c7e481\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.3.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-api-16.3.0.aar\e4cfe9754cdbc1bf7a34031b647885a2\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.3.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-api-16.3.0.aar\e4cfe9754cdbc1bf7a34031b647885a2\AndroidManifest.xml:23:5-67
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.16.0.aar\556d69c27bd9b023f6b542216f9ffb32\AndroidManifest.xml:10:5-67
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.16.0.aar\556d69c27bd9b023f6b542216f9ffb32\AndroidManifest.xml:10:5-67
+MERGED from [com.daimajia.slider:library:1.1.5] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\library-1.1.5.aar\c8d67b7a2e8c581d6f707f20773f9ba8\AndroidManifest.xml:11:5-67
+MERGED from [com.daimajia.slider:library:1.1.5] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\library-1.1.5.aar\c8d67b7a2e8c581d6f707f20773f9ba8\AndroidManifest.xml:11:5-67
+MERGED from [com.braintreepayments.api:braintree:2.18.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\braintree-2.18.1.aar\d776384491ac3fff37658df18a7d9969\AndroidManifest.xml:12:5-67
+MERGED from [com.braintreepayments.api:braintree:2.18.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\braintree-2.18.1.aar\d776384491ac3fff37658df18a7d9969\AndroidManifest.xml:12:5-67
+MERGED from [com.paypal.android.sdk:paypal-one-touch:2.18.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\paypal-one-touch-2.18.1.aar\9614daf4cf0a439d38b7f5674bc1d4d9\AndroidManifest.xml:11:5-67
+MERGED from [com.paypal.android.sdk:paypal-one-touch:2.18.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\paypal-one-touch-2.18.1.aar\9614daf4cf0a439d38b7f5674bc1d4d9\AndroidManifest.xml:11:5-67
+MERGED from [com.paypal.android.sdk:data-collector:2.18.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\data-collector-2.18.1.aar\f5cc6b4f9cba589841ac568023dfbff0\AndroidManifest.xml:11:5-67
+MERGED from [com.paypal.android.sdk:data-collector:2.18.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\data-collector-2.18.1.aar\f5cc6b4f9cba589841ac568023dfbff0\AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:8:22-64
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:9:5-76
+	android:name
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:9:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:10:5-79
+MERGED from [com.braintreepayments.api:drop-in:3.7.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\drop-in-3.7.1.aar\b13f406652f3faefa989045e178d84cc\AndroidManifest.xml:12:5-79
+MERGED from [com.braintreepayments.api:drop-in:3.7.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\drop-in-3.7.1.aar\b13f406652f3faefa989045e178d84cc\AndroidManifest.xml:12:5-79
+MERGED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:25:5-79
+MERGED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.1.0.aar\f00c5492b0167e58627e59b5bdd5f064\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.1.0.aar\f00c5492b0167e58627e59b5bdd5f064\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.3.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.3.0.aar\86734e32583a33800b8953fcb544d7a1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.3.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.3.0.aar\86734e32583a33800b8953fcb544d7a1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.3.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.3.0.aar\901195fc4e5e8f3089bb539820d8b7d2\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.3.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.3.0.aar\901195fc4e5e8f3089bb539820d8b7d2\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\e4df406626c0b39f09430d391d7f040c\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\e4df406626c0b39f09430d391d7f040c\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:17.1.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-17.1.3.aar\d4c700a550188cb53a066929e5c7e481\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:17.1.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-17.1.3.aar\d4c700a550188cb53a066929e5c7e481\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.3.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-api-16.3.0.aar\e4cfe9754cdbc1bf7a34031b647885a2\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.3.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-api-16.3.0.aar\e4cfe9754cdbc1bf7a34031b647885a2\AndroidManifest.xml:24:5-79
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.16.0.aar\556d69c27bd9b023f6b542216f9ffb32\AndroidManifest.xml:9:5-79
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.16.0.aar\556d69c27bd9b023f6b542216f9ffb32\AndroidManifest.xml:9:5-79
+MERGED from [com.braintreepayments.api:braintree:2.18.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\braintree-2.18.1.aar\d776384491ac3fff37658df18a7d9969\AndroidManifest.xml:11:5-79
+MERGED from [com.braintreepayments.api:braintree:2.18.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\braintree-2.18.1.aar\d776384491ac3fff37658df18a7d9969\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:10:22-76
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:11:5-80
+	android:name
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:11:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:12:5-81
+MERGED from [com.daimajia.slider:library:1.1.5] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\library-1.1.5.aar\c8d67b7a2e8c581d6f707f20773f9ba8\AndroidManifest.xml:12:5-81
+MERGED from [com.daimajia.slider:library:1.1.5] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\library-1.1.5.aar\c8d67b7a2e8c581d6f707f20773f9ba8\AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:12:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:13:5-75
+	android:name
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:13:22-72
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:14:5-78
+	android:name
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:14:22-75
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:15:5-79
+	android:name
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:15:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:16:5-81
+	android:name
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:16:22-78
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:17:5-80
+MERGED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:30:5-81
+MERGED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:30:5-81
+	android:name
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:17:22-78
+application
+ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:22:5-146:19
+MERGED from [com.braintreepayments.api:drop-in:3.7.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\drop-in-3.7.1.aar\b13f406652f3faefa989045e178d84cc\AndroidManifest.xml:15:5-30:19
+MERGED from [com.braintreepayments.api:drop-in:3.7.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\drop-in-3.7.1.aar\b13f406652f3faefa989045e178d84cc\AndroidManifest.xml:15:5-30:19
+MERGED from [com.android.support:design:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\287fca176346632406e28b5247ee2e11\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\287fca176346632406e28b5247ee2e11\AndroidManifest.xml:22:5-20
+MERGED from [com.bogdwellers:pinchtozoom:0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\pinchtozoom-0.1.aar\13519e686f8375f2ec3f99e806353f1a\AndroidManifest.xml:11:5-15:19
+MERGED from [com.bogdwellers:pinchtozoom:0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\pinchtozoom-0.1.aar\13519e686f8375f2ec3f99e806353f1a\AndroidManifest.xml:11:5-15:19
+MERGED from [com.crystal:crystalrangeseekbar:1.1.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\crystalrangeseekbar-1.1.1.aar\cd35a3f827f52574a852229f6237ec57\AndroidManifest.xml:11:5-15:19
+MERGED from [com.crystal:crystalrangeseekbar:1.1.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\crystalrangeseekbar-1.1.1.aar\cd35a3f827f52574a852229f6237ec57\AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.apl-devs:appintro:v4.2.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\appintro-v4.2.3.aar\ac6974c297a27d01a9d52077d2a8d468\AndroidManifest.xml:11:5-47
+MERGED from [com.github.apl-devs:appintro:v4.2.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\appintro-v4.2.3.aar\ac6974c297a27d01a9d52077d2a8d468\AndroidManifest.xml:11:5-47
+MERGED from [com.facebook.android:facebook-android-sdk:4.40.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.40.0.aar\be7d116b4f46d16ae2528492de005b87\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-android-sdk:4.40.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.40.0.aar\be7d116b4f46d16ae2528492de005b87\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:4.40.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\facebook-login-4.40.0.aar\f3fe1f4505a66c431774ad962b0228cd\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:4.40.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\facebook-login-4.40.0.aar\f3fe1f4505a66c431774ad962b0228cd\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-share:4.40.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\facebook-share-4.40.0.aar\7742b32870d402c836db933cdd417941\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-share:4.40.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\facebook-share-4.40.0.aar\7742b32870d402c836db933cdd417941\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-common:4.40.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\facebook-common-4.40.0.aar\154712c807d58534f77cc2a97eabead2\AndroidManifest.xml:28:5-35:19
+MERGED from [com.facebook.android:facebook-common:4.40.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\facebook-common-4.40.0.aar\154712c807d58534f77cc2a97eabead2\AndroidManifest.xml:28:5-35:19
+MERGED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:49:5-106:19
+MERGED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:49:5-106:19
+MERGED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.1.0.aar\de5146f9a2f9fee694bedd55ff791083\AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.1.0.aar\de5146f9a2f9fee694bedd55ff791083\AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.4.aar\2d5b18bf3b1b0c3e4f3b51a81d0bacda\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.4.aar\2d5b18bf3b1b0c3e4f3b51a81d0bacda\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-auth-16.0.1.aar\04687f4071aac602da1bee109cf5d443\AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-auth-16.0.1.aar\04687f4071aac602da1bee109cf5d443\AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.1.0.aar\f00c5492b0167e58627e59b5bdd5f064\AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.1.0.aar\f00c5492b0167e58627e59b5bdd5f064\AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-location-16.0.0.aar\435f08c763367646a841fdcabe813c50\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-location-16.0.0.aar\435f08c763367646a841fdcabe813c50\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-gcm:12.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-gcm-12.0.1.aar\b8aad7c0de66bc6767b8f4b784e874f3\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-gcm:12.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-gcm-12.0.1.aar\b8aad7c0de66bc6767b8f4b784e874f3\AndroidManifest.xml:26:5-20
+MERGED from [com.google.firebase:firebase-ads:17.1.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-ads-17.1.3.aar\6d5bcf78d4ae490fca266a50dd1b0860\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-ads:17.1.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-ads-17.1.3.aar\6d5bcf78d4ae490fca266a50dd1b0860\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:16.3.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.3.0.aar\86734e32583a33800b8953fcb544d7a1\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics:16.3.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.3.0.aar\86734e32583a33800b8953fcb544d7a1\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-auth-interop-16.0.1.aar\2e82789895199242ba603a07b98a4641\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-auth-interop-16.0.1.aar\2e82789895199242ba603a07b98a4641\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-iid:12.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-iid-12.0.1.aar\36e8867ec205412c1158d28612d5b042\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-iid:12.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-iid-12.0.1.aar\36e8867ec205412c1158d28612d5b042\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:16.3.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.3.0.aar\856889a413025a32254fffec7ad5d62d\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.3.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.3.0.aar\856889a413025a32254fffec7ad5d62d\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.3.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.3.0.aar\901195fc4e5e8f3089bb539820d8b7d2\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.3.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.3.0.aar\901195fc4e5e8f3089bb539820d8b7d2\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\e4df406626c0b39f09430d391d7f040c\AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\e4df406626c0b39f09430d391d7f040c\AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\168a70691f6caa2dea9b5248e1053f15\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\168a70691f6caa2dea9b5248e1053f15\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\fa3ab03b57e0b5d9fa7864d1ee6f4e08\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\fa3ab03b57e0b5d9fa7864d1ee6f4e08\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\8f393d3d29a13b642c74dde2cae08c5b\AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\8f393d3d29a13b642c74dde2cae08c5b\AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\35b4fd5d726e552787400ad695e9df85\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\35b4fd5d726e552787400ad695e9df85\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.1.aar\fbf2c06fa180fa23036c345ff588f255\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.1.aar\fbf2c06fa180fa23036c345ff588f255\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\6d56d9ee25193fc31d39249bb9a3b928\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\6d56d9ee25193fc31d39249bb9a3b928\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-16.0.0.aar\b42f47d4346d2c9af22dccff82e89d16\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-16.0.0.aar\b42f47d4346d2c9af22dccff82e89d16\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:17.1.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-17.1.3.aar\d4c700a550188cb53a066929e5c7e481\AndroidManifest.xml:26:5-40:19
+MERGED from [com.google.android.gms:play-services-ads-lite:17.1.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-17.1.3.aar\d4c700a550188cb53a066929e5c7e481\AndroidManifest.xml:26:5-40:19
+MERGED from [com.google.android.gms:play-services-gass:17.1.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-gass-17.1.3.aar\b2560475972222df4a4afe82f8b1030b\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-gass:17.1.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-gass-17.1.3.aar\b2560475972222df4a4afe82f8b1030b\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.3.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-api-16.3.0.aar\e4cfe9754cdbc1bf7a34031b647885a2\AndroidManifest.xml:27:5-28:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.3.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-api-16.3.0.aar\e4cfe9754cdbc1bf7a34031b647885a2\AndroidManifest.xml:27:5-28:19
+MERGED from [com.google.android.gms:play-services-measurement-base:16.3.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.3.0.aar\5b7181a2e39561e8c9698b7c14e1af14\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.3.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.3.0.aar\5b7181a2e39561e8c9698b7c14e1af14\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\434a5286d01b77d5a7af44bb57232f2d\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\434a5286d01b77d5a7af44bb57232f2d\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.1.0.aar\af74d1f471b127a8b1f7e489435de367\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.1.0.aar\af74d1f471b127a8b1f7e489435de367\AndroidManifest.xml:22:5-26:19
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.16.0.aar\556d69c27bd9b023f6b542216f9ffb32\AndroidManifest.xml:12:5-26:19
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.16.0.aar\556d69c27bd9b023f6b542216f9ffb32\AndroidManifest.xml:12:5-26:19
+MERGED from [hyogeun.github.com.colorratingbar:ColorRatingBar:1.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\ColorRatingBar-1.0.1.aar\1a1c27e9930ce2ab58934c9392389ae2\AndroidManifest.xml:11:5-15:19
+MERGED from [hyogeun.github.com.colorratingbar:ColorRatingBar:1.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\ColorRatingBar-1.0.1.aar\1a1c27e9930ce2ab58934c9392389ae2\AndroidManifest.xml:11:5-15:19
+MERGED from [com.braintreepayments.api:braintree:2.18.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\braintree-2.18.1.aar\d776384491ac3fff37658df18a7d9969\AndroidManifest.xml:14:5-24:19
+MERGED from [com.braintreepayments.api:braintree:2.18.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\braintree-2.18.1.aar\d776384491ac3fff37658df18a7d9969\AndroidManifest.xml:14:5-24:19
+MERGED from [com.facebook.android:facebook-places:4.40.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\facebook-places-4.40.0.aar\f9d0cf7bf49a09afb9e1be0a5442a921\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-places:4.40.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\facebook-places-4.40.0.aar\f9d0cf7bf49a09afb9e1be0a5442a921\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-applinks:4.40.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\facebook-applinks-4.40.0.aar\698935aafcd4e42ec5d72ccc1e1afa21\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-applinks:4.40.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\facebook-applinks-4.40.0.aar\698935aafcd4e42ec5d72ccc1e1afa21\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-messenger:4.40.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\facebook-messenger-4.40.0.aar\14332f320868263fdade1a53c8bc01f6\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-messenger:4.40.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\facebook-messenger-4.40.0.aar\14332f320868263fdade1a53c8bc01f6\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-marketing:4.40.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\facebook-marketing-4.40.0.aar\177d6c414b3f3ec534f8a4071ad430b4\AndroidManifest.xml:28:5-33:19
+MERGED from [com.facebook.android:facebook-marketing:4.40.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\facebook-marketing-4.40.0.aar\177d6c414b3f3ec534f8a4071ad430b4\AndroidManifest.xml:28:5-33:19
+MERGED from [com.facebook.android:facebook-core:4.40.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\facebook-core-4.40.0.aar\4430a0825dbae39705c0ae739bcc73bc\AndroidManifest.xml:28:5-51:19
+MERGED from [com.facebook.android:facebook-core:4.40.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\facebook-core-4.40.0.aar\4430a0825dbae39705c0ae739bcc73bc\AndroidManifest.xml:28:5-51:19
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\9fc9c0d7773b1d0ff0d5f53f0cc457d5\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\9fc9c0d7773b1d0ff0d5f53f0cc457d5\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\a3f2e25a9a6d0d908b3197c1ea540915\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\a3f2e25a9a6d0d908b3197c1ea540915\AndroidManifest.xml:22:5-23:19
+MERGED from [io.card:android-sdk:5.5.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\android-sdk-5.5.1.aar\a6a6e79cfd389f2d3a847b6d4fc87863\AndroidManifest.xml:19:5-24:19
+MERGED from [io.card:android-sdk:5.5.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\android-sdk-5.5.1.aar\a6a6e79cfd389f2d3a847b6d4fc87863\AndroidManifest.xml:19:5-24:19
+MERGED from [com.google.android.gms:play-services-gcm-license:12.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-gcm-license-12.0.1.aar\d2aac15c9992155679e6c280b0710112\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-gcm-license:12.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-gcm-license-12.0.1.aar\d2aac15c9992155679e6c280b0710112\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-base:17.1.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-ads-base-17.1.3.aar\29b279934bfc3b1620cf4fcaf2ba497f\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-base:17.1.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-ads-base-17.1.3.aar\29b279934bfc3b1620cf4fcaf2ba497f\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-iid-license:12.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-iid-license-12.0.1.aar\db9295adf352a1a0b7c8a1e413613a26\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-iid-license:12.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-iid-license-12.0.1.aar\db9295adf352a1a0b7c8a1e413613a26\AndroidManifest.xml:22:5-20
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\9fc9c0d7773b1d0ff0d5f53f0cc457d5\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:29:9-35
+	android:label
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:27:9-41
+	android:fullBackupContent
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:25:9-42
+	tools:ignore
+		ADDED from [com.braintreepayments.api:drop-in:3.7.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\drop-in-3.7.1.aar\b13f406652f3faefa989045e178d84cc\AndroidManifest.xml:17:9-39
+	android:icon
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:28:9-43
+	android:allowBackup
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:24:9-36
+		REJECTED from [com.bogdwellers:pinchtozoom:0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\pinchtozoom-0.1.aar\13519e686f8375f2ec3f99e806353f1a\AndroidManifest.xml:12:9-35
+		REJECTED from [com.crystal:crystalrangeseekbar:1.1.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\crystalrangeseekbar-1.1.1.aar\cd35a3f827f52574a852229f6237ec57\AndroidManifest.xml:12:9-35
+		REJECTED from [hyogeun.github.com.colorratingbar:ColorRatingBar:1.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\ColorRatingBar-1.0.1.aar\1a1c27e9930ce2ab58934c9392389ae2\AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:30:9-40
+	tools:replace
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:26:9-44
+	android:name
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:23:9-64
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:33:9-34:54
+	android:value
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:34:13-52
+	android:name
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:33:20-65
+meta-data#com.google.android.maps.v2.API_KEY
+ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:35:9-113
+	android:value
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:35:70-111
+	android:name
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:35:20-69
+meta-data#com.google.android.gms.ads.APPLICATION_ID
+ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:37:9-133
+	android:value
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:37:77-131
+	android:name
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:37:20-76
+meta-data#com.google.firebase.messaging.default_notification_icon
+ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:39:9-130
+	android:resource
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:39:91-127
+	android:name
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:39:20-90
+activity#com.yellomark.androidwoocommerce.activities.SplashScreen
+ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:52:9-61:20
+	android:screenOrientation
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:54:13-49
+	android:theme
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:55:13-50
+	android:name
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:53:13-84
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:57:13-60:29
+action#android.intent.action.MAIN
+ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:58:17-69
+	android:name
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:58:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:59:17-77
+	android:name
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:59:27-74
+activity#com.yellomark.androidwoocommerce.activities.IntroScreen
+ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:63:9-64:20
+	android:name
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:63:19-89
+activity#com.yellomark.androidwoocommerce.activities.MainActivity
+ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:66:9-77:20
+	android:screenOrientation
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:69:13-49
+	android:windowSoftInputMode
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:70:13-55
+	android:exported
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:68:13-36
+	android:name
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:67:13-84
+intent-filter#action:name:android.intent.action.MAIN+action:name:android.intent.action.SEARCH+category:name:android.intent.category.DEFAULT
+ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:72:13-76:29
+action#android.intent.action.SEARCH
+ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:74:17-71
+	android:name
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:74:25-68
+category#android.intent.category.DEFAULT
+ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:75:17-76
+	android:name
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:75:27-73
+activity#com.yellomark.androidwoocommerce.activities.Login
+ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:79:9-84:20
+	android:screenOrientation
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:82:13-49
+	android:label
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:81:13-46
+	android:windowSoftInputMode
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:83:13-55
+	android:name
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:80:13-77
+activity#com.yellomark.androidwoocommerce.activities.Signup
+ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:86:9-91:20
+	android:screenOrientation
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:89:13-49
+	android:label
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:88:13-47
+	android:windowSoftInputMode
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:90:13-55
+	android:name
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:87:13-78
+activity#com.facebook.FacebookActivity
+ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:97:9-101:20
+MERGED from [com.facebook.android:facebook-common:4.40.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\facebook-common-4.40.0.aar\154712c807d58534f77cc2a97eabead2\AndroidManifest.xml:29:9-32:66
+MERGED from [com.facebook.android:facebook-common:4.40.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\facebook-common-4.40.0.aar\154712c807d58534f77cc2a97eabead2\AndroidManifest.xml:29:9-32:66
+	android:label
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:100:13-45
+	android:configChanges
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:99:13-96
+	android:theme
+		ADDED from [com.facebook.android:facebook-common:4.40.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\facebook-common-4.40.0.aar\154712c807d58534f77cc2a97eabead2\AndroidManifest.xml:32:13-63
+	android:name
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:98:13-57
+activity#com.braintreepayments.api.BraintreeBrowserSwitchActivity
+ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:106:9-114:20
+	android:launchMode
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:107:13-44
+	android:name
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:106:19-90
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:com.yellomark.androidwoocommerce.braintree
+ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:108:13-113:29
+action#android.intent.action.VIEW
+ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:109:17-69
+	android:name
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:109:25-66
+category#android.intent.category.BROWSABLE
+ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:112:17-78
+	android:name
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:112:27-75
+receiver#com.yellomark.androidwoocommerce.receivers.AlarmReceiver
+ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:120:9-127:20
+	android:enabled
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:121:13-36
+	android:name
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:120:19-90
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.media.action.DISPLAY_NOTIFICATION+category:name:android.intent.category.APP_MARKET
+ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:122:13-126:29
+category#android.intent.category.APP_MARKET
+ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:123:17-79
+	android:name
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:123:27-76
+action#android.intent.action.BOOT_COMPLETED
+ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:124:17-78
+	android:name
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:124:25-76
+action#android.media.action.DISPLAY_NOTIFICATION
+ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:125:17-84
+	android:name
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:125:25-81
+service#com.yellomark.androidwoocommerce.services.MyFirebaseMessagingService
+ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:132:9-136:19
+	android:name
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:132:18-101
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:133:13-135:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:134:17-78
+	android:name
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:134:25-75
+service#com.yellomark.androidwoocommerce.services.MyFirebaseInstanceIDService
+ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:138:9-142:19
+	android:name
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:138:18-102
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:139:13-141:29
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:140:17-80
+	android:name
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:140:25-77
+uses-sdk
+INJECTED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml
+INJECTED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:multidex:1.0.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\multidex-1.0.3.aar\4866947bf65fbb9391873312c3936ac6\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\multidex-1.0.3.aar\4866947bf65fbb9391873312c3936ac6\AndroidManifest.xml:20:5-43
+MERGED from [com.braintreepayments.api:drop-in:3.7.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\drop-in-3.7.1.aar\b13f406652f3faefa989045e178d84cc\AndroidManifest.xml:8:5-10:41
+MERGED from [com.braintreepayments.api:drop-in:3.7.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\drop-in-3.7.1.aar\b13f406652f3faefa989045e178d84cc\AndroidManifest.xml:8:5-10:41
+MERGED from [com.braintreepayments:card-form:3.5.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\card-form-3.5.0.aar\21e3f41d6ddd1f1e0ba53149a1f0a17e\AndroidManifest.xml:7:5-9:41
+MERGED from [com.braintreepayments:card-form:3.5.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\card-form-3.5.0.aar\21e3f41d6ddd1f1e0ba53149a1f0a17e\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\287fca176346632406e28b5247ee2e11\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\287fca176346632406e28b5247ee2e11\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:preference-v14:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\preference-v14-28.0.0.aar\cd06c9c8b9bcbeb0c0f08513213d5932\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:preference-v14:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\preference-v14-28.0.0.aar\cd06c9c8b9bcbeb0c0f08513213d5932\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:preference-v7:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\preference-v7-28.0.0.aar\5d1d7bf433717700300bca40555c4c05\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:preference-v7:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\preference-v7-28.0.0.aar\5d1d7bf433717700300bca40555c4c05\AndroidManifest.xml:20:5-44
+MERGED from [com.bogdwellers:pinchtozoom:0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\pinchtozoom-0.1.aar\13519e686f8375f2ec3f99e806353f1a\AndroidManifest.xml:7:5-9:41
+MERGED from [com.bogdwellers:pinchtozoom:0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\pinchtozoom-0.1.aar\13519e686f8375f2ec3f99e806353f1a\AndroidManifest.xml:7:5-9:41
+MERGED from [com.crystal:crystalrangeseekbar:1.1.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\crystalrangeseekbar-1.1.1.aar\cd35a3f827f52574a852229f6237ec57\AndroidManifest.xml:7:5-9:41
+MERGED from [com.crystal:crystalrangeseekbar:1.1.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\crystalrangeseekbar-1.1.1.aar\cd35a3f827f52574a852229f6237ec57\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.apl-devs:appintro:v4.2.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\appintro-v4.2.3.aar\ac6974c297a27d01a9d52077d2a8d468\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.apl-devs:appintro:v4.2.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\appintro-v4.2.3.aar\ac6974c297a27d01a9d52077d2a8d468\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.android:facebook-android-sdk:4.40.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.40.0.aar\be7d116b4f46d16ae2528492de005b87\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-android-sdk:4.40.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.40.0.aar\be7d116b4f46d16ae2528492de005b87\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:4.40.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\facebook-login-4.40.0.aar\f3fe1f4505a66c431774ad962b0228cd\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:4.40.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\facebook-login-4.40.0.aar\f3fe1f4505a66c431774ad962b0228cd\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-share:4.40.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\facebook-share-4.40.0.aar\7742b32870d402c836db933cdd417941\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-share:4.40.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\facebook-share-4.40.0.aar\7742b32870d402c836db933cdd417941\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:4.40.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\facebook-common-4.40.0.aar\154712c807d58534f77cc2a97eabead2\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:4.40.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\facebook-common-4.40.0.aar\154712c807d58534f77cc2a97eabead2\AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\dcc3a1dfc5a3bc3baff8e6240e79cefa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\dcc3a1dfc5a3bc3baff8e6240e79cefa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\b8c314b33a1196cfae76b852150ccff0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\b8c314b33a1196cfae76b852150ccff0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\70dac2f0fbdba0f807433f44c14ba19f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\70dac2f0fbdba0f807433f44c14ba19f\AndroidManifest.xml:20:5-44
+MERGED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:5:5-44
+MERGED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.1.0.aar\de5146f9a2f9fee694bedd55ff791083\AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.1.0.aar\de5146f9a2f9fee694bedd55ff791083\AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.4.aar\2d5b18bf3b1b0c3e4f3b51a81d0bacda\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.4.aar\2d5b18bf3b1b0c3e4f3b51a81d0bacda\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-auth-16.0.1.aar\04687f4071aac602da1bee109cf5d443\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-auth-16.0.1.aar\04687f4071aac602da1bee109cf5d443\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.1.0.aar\f00c5492b0167e58627e59b5bdd5f064\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.1.0.aar\f00c5492b0167e58627e59b5bdd5f064\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-location-16.0.0.aar\435f08c763367646a841fdcabe813c50\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-location-16.0.0.aar\435f08c763367646a841fdcabe813c50\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-gcm:12.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-gcm-12.0.1.aar\b8aad7c0de66bc6767b8f4b784e874f3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gcm:12.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-gcm-12.0.1.aar\b8aad7c0de66bc6767b8f4b784e874f3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-ads:17.1.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-ads-17.1.3.aar\6d5bcf78d4ae490fca266a50dd1b0860\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-ads:17.1.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-ads-17.1.3.aar\6d5bcf78d4ae490fca266a50dd1b0860\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads:17.1.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-ads-17.1.3.aar\c252889b7fc367601e6f17b4e6a6efde\AndroidManifest.xml:21:5-23:62
+MERGED from [com.google.android.gms:play-services-ads:17.1.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-ads-17.1.3.aar\c252889b7fc367601e6f17b4e6a6efde\AndroidManifest.xml:21:5-23:62
+MERGED from [com.google.firebase:firebase-analytics:16.3.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.3.0.aar\86734e32583a33800b8953fcb544d7a1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.3.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.3.0.aar\86734e32583a33800b8953fcb544d7a1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-flags-16.0.1.aar\943ecadaf89f7fd021f930ff483d94db\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-flags-16.0.1.aar\943ecadaf89f7fd021f930ff483d94db\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-auth-interop-16.0.1.aar\2e82789895199242ba603a07b98a4641\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-auth-interop-16.0.1.aar\2e82789895199242ba603a07b98a4641\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-16.0.0.aar\2cee658c06fca228c0fdc8fca406f685\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-16.0.0.aar\2cee658c06fca228c0fdc8fca406f685\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-16.0.0.aar\7cd8d691f9e7402fd934431394f7b752\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-16.0.0.aar\7cd8d691f9e7402fd934431394f7b752\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-iid:12.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-iid-12.0.1.aar\36e8867ec205412c1158d28612d5b042\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid:12.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-iid-12.0.1.aar\36e8867ec205412c1158d28612d5b042\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.3.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.3.0.aar\856889a413025a32254fffec7ad5d62d\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.3.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.3.0.aar\856889a413025a32254fffec7ad5d62d\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.3.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.3.0.aar\901195fc4e5e8f3089bb539820d8b7d2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.3.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.3.0.aar\901195fc4e5e8f3089bb539820d8b7d2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\e4df406626c0b39f09430d391d7f040c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\e4df406626c0b39f09430d391d7f040c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\168a70691f6caa2dea9b5248e1053f15\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\168a70691f6caa2dea9b5248e1053f15\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\fa3ab03b57e0b5d9fa7864d1ee6f4e08\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\fa3ab03b57e0b5d9fa7864d1ee6f4e08\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\8f393d3d29a13b642c74dde2cae08c5b\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\8f393d3d29a13b642c74dde2cae08c5b\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\35b4fd5d726e552787400ad695e9df85\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\35b4fd5d726e552787400ad695e9df85\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.1.aar\fbf2c06fa180fa23036c345ff588f255\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.1.aar\fbf2c06fa180fa23036c345ff588f255\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\6d56d9ee25193fc31d39249bb9a3b928\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\6d56d9ee25193fc31d39249bb9a3b928\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-16.0.0.aar\b42f47d4346d2c9af22dccff82e89d16\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-16.0.0.aar\b42f47d4346d2c9af22dccff82e89d16\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:17.1.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-17.1.3.aar\d4c700a550188cb53a066929e5c7e481\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:17.1.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-17.1.3.aar\d4c700a550188cb53a066929e5c7e481\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gass:17.1.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-gass-17.1.3.aar\b2560475972222df4a4afe82f8b1030b\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-gass:17.1.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-gass-17.1.3.aar\b2560475972222df4a4afe82f8b1030b\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.3.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-api-16.3.0.aar\e4cfe9754cdbc1bf7a34031b647885a2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.3.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-api-16.3.0.aar\e4cfe9754cdbc1bf7a34031b647885a2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.3.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.3.0.aar\5b7181a2e39561e8c9698b7c14e1af14\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.3.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.3.0.aar\5b7181a2e39561e8c9698b7c14e1af14\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\434a5286d01b77d5a7af44bb57232f2d\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\434a5286d01b77d5a7af44bb57232f2d\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.1.0.aar\af74d1f471b127a8b1f7e489435de367\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.1.0.aar\af74d1f471b127a8b1f7e489435de367\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\f1834551bafe297271e491a7ca146fd5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\f1834551bafe297271e491a7ca146fd5\AndroidManifest.xml:20:5-44
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.16.0.aar\556d69c27bd9b023f6b542216f9ffb32\AndroidManifest.xml:5:5-7:41
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.16.0.aar\556d69c27bd9b023f6b542216f9ffb32\AndroidManifest.xml:5:5-7:41
+MERGED from [com.daimajia.slider:library:1.1.5] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\library-1.1.5.aar\c8d67b7a2e8c581d6f707f20773f9ba8\AndroidManifest.xml:7:5-9:41
+MERGED from [com.daimajia.slider:library:1.1.5] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\library-1.1.5.aar\c8d67b7a2e8c581d6f707f20773f9ba8\AndroidManifest.xml:7:5-9:41
+MERGED from [hyogeun.github.com.colorratingbar:ColorRatingBar:1.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\ColorRatingBar-1.0.1.aar\1a1c27e9930ce2ab58934c9392389ae2\AndroidManifest.xml:7:5-9:41
+MERGED from [hyogeun.github.com.colorratingbar:ColorRatingBar:1.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\ColorRatingBar-1.0.1.aar\1a1c27e9930ce2ab58934c9392389ae2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.stripe:stripe-android:2.0.2] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\stripe-android-2.0.2.aar\8c45d587176e8a75f6f8961d26feca7d\AndroidManifest.xml:7:5-9:41
+MERGED from [com.stripe:stripe-android:2.0.2] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\stripe-android-2.0.2.aar\8c45d587176e8a75f6f8961d26feca7d\AndroidManifest.xml:7:5-9:41
+MERGED from [com.braintreepayments.api:braintree:2.18.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\braintree-2.18.1.aar\d776384491ac3fff37658df18a7d9969\AndroidManifest.xml:7:5-9:41
+MERGED from [com.braintreepayments.api:braintree:2.18.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\braintree-2.18.1.aar\d776384491ac3fff37658df18a7d9969\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\4e1a4fdd78784adc968fc01ba1586d41\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\4e1a4fdd78784adc968fc01ba1586d41\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\525a08c6c273a77286006fef2e2bf5c2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\525a08c6c273a77286006fef2e2bf5c2\AndroidManifest.xml:20:5-44
+MERGED from [com.paypal.android.sdk:paypal-one-touch:2.18.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\paypal-one-touch-2.18.1.aar\9614daf4cf0a439d38b7f5674bc1d4d9\AndroidManifest.xml:7:5-9:41
+MERGED from [com.paypal.android.sdk:paypal-one-touch:2.18.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\paypal-one-touch-2.18.1.aar\9614daf4cf0a439d38b7f5674bc1d4d9\AndroidManifest.xml:7:5-9:41
+MERGED from [com.braintreepayments.api:core:2.18.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\core-2.18.1.aar\de5168b6e9ee867d6190e910dfc5c442\AndroidManifest.xml:7:5-9:41
+MERGED from [com.braintreepayments.api:core:2.18.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\core-2.18.1.aar\de5168b6e9ee867d6190e910dfc5c442\AndroidManifest.xml:7:5-9:41
+MERGED from [com.braintreepayments:browser-switch:0.1.7] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\browser-switch-0.1.7.aar\7e8eea8e224712a4e467808709a0e929\AndroidManifest.xml:7:5-9:41
+MERGED from [com.braintreepayments:browser-switch:0.1.7] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\browser-switch-0.1.7.aar\7e8eea8e224712a4e467808709a0e929\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:customtabs:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\customtabs-28.0.0.aar\96122990a47e33e365382eab61ad928a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\customtabs-28.0.0.aar\96122990a47e33e365382eab61ad928a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\91ff57093114ee7877c0f6174ae8dc92\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\91ff57093114ee7877c0f6174ae8dc92\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.android:facebook-places:4.40.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\facebook-places-4.40.0.aar\f9d0cf7bf49a09afb9e1be0a5442a921\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-places:4.40.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\facebook-places-4.40.0.aar\f9d0cf7bf49a09afb9e1be0a5442a921\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-applinks:4.40.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\facebook-applinks-4.40.0.aar\698935aafcd4e42ec5d72ccc1e1afa21\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-applinks:4.40.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\facebook-applinks-4.40.0.aar\698935aafcd4e42ec5d72ccc1e1afa21\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-messenger:4.40.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\facebook-messenger-4.40.0.aar\14332f320868263fdade1a53c8bc01f6\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-messenger:4.40.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\facebook-messenger-4.40.0.aar\14332f320868263fdade1a53c8bc01f6\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-marketing:4.40.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\facebook-marketing-4.40.0.aar\177d6c414b3f3ec534f8a4071ad430b4\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-marketing:4.40.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\facebook-marketing-4.40.0.aar\177d6c414b3f3ec534f8a4071ad430b4\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:4.40.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\facebook-core-4.40.0.aar\4430a0825dbae39705c0ae739bcc73bc\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:4.40.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\facebook-core-4.40.0.aar\4430a0825dbae39705c0ae739bcc73bc\AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\85c0669c4d095a6b0f3797459df45644\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\85c0669c4d095a6b0f3797459df45644\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\604d6a38164fd989e6355ddac8fd34b5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\604d6a38164fd989e6355ddac8fd34b5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\5c619857fc230aceb61584811a070047\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\5c619857fc230aceb61584811a070047\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\a14c514f4af47aa855b22774542a8f05\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\a14c514f4af47aa855b22774542a8f05\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\969bc8f18266dced04a86dddd8d8936c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\969bc8f18266dced04a86dddd8d8936c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\bc5735275ef3457862a5d3c4a2031a9d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\bc5735275ef3457862a5d3c4a2031a9d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\09d68de776681d6a2a9efdd7bcbf4d11\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\09d68de776681d6a2a9efdd7bcbf4d11\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\9e1488ae3b05369cf01c300a20dae4c4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\9e1488ae3b05369cf01c300a20dae4c4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\35b08993be89bd66fdfaeec3b74c4bde\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\35b08993be89bd66fdfaeec3b74c4bde\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\cc9ca92b2166ccebeed2dbdf9d5fe9a2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\cc9ca92b2166ccebeed2dbdf9d5fe9a2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\2dd52b74eb0b3e12ebf74db638580868\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\2dd52b74eb0b3e12ebf74db638580868\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\a9ac2361b4ea64d57ac3d62499d73955\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\a9ac2361b4ea64d57ac3d62499d73955\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\9fc9c0d7773b1d0ff0d5f53f0cc457d5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\9fc9c0d7773b1d0ff0d5f53f0cc457d5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\a3f2e25a9a6d0d908b3197c1ea540915\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\a3f2e25a9a6d0d908b3197c1ea540915\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\e7778f1b2f0b8b83c0bb6df4a91a48de\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\e7778f1b2f0b8b83c0bb6df4a91a48de\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\69e24e75c93c4855fd89f70329995521\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\69e24e75c93c4855fd89f70329995521\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\33a5483730aaa6cc42f8d26a3f1fedaa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\33a5483730aaa6cc42f8d26a3f1fedaa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\08883119ff690af12e7493955659dce4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\08883119ff690af12e7493955659dce4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\f7815300ad7ba2dae0060a5399c747b6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\f7815300ad7ba2dae0060a5399c747b6\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\206faa06a07eb5cb4eda814bd7db9074\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\206faa06a07eb5cb4eda814bd7db9074\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\07e649763e41fbb3d3e855a0a0a9d61c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\07e649763e41fbb3d3e855a0a0a9d61c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\9fc4cc0362bed6533500f66c70510007\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\9fc4cc0362bed6533500f66c70510007\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\482a8344f3a3285489e916cb2643f16e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\482a8344f3a3285489e916cb2643f16e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\60b6dd1773d39c04c54fe62d2f606ff6\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\60b6dd1773d39c04c54fe62d2f606ff6\AndroidManifest.xml:20:5-44
+MERGED from [com.braintreepayments.api:visa-checkout:1.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\visa-checkout-1.0.0.aar\1bff883c6d633badb2f95945149998c8\AndroidManifest.xml:8:5-10:41
+MERGED from [com.braintreepayments.api:visa-checkout:1.0.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\visa-checkout-1.0.0.aar\1bff883c6d633badb2f95945149998c8\AndroidManifest.xml:8:5-10:41
+MERGED from [io.card:android-sdk:5.5.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\android-sdk-5.5.1.aar\a6a6e79cfd389f2d3a847b6d4fc87863\AndroidManifest.xml:5:5-7:41
+MERGED from [io.card:android-sdk:5.5.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\android-sdk-5.5.1.aar\a6a6e79cfd389f2d3a847b6d4fc87863\AndroidManifest.xml:5:5-7:41
+MERGED from [com.paypal.android.sdk:data-collector:2.18.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\data-collector-2.18.1.aar\f5cc6b4f9cba589841ac568023dfbff0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.paypal.android.sdk:data-collector:2.18.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\data-collector-2.18.1.aar\f5cc6b4f9cba589841ac568023dfbff0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-gcm-license:12.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-gcm-license-12.0.1.aar\d2aac15c9992155679e6c280b0710112\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gcm-license:12.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-gcm-license-12.0.1.aar\d2aac15c9992155679e6c280b0710112\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-base:17.1.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-ads-base-17.1.3.aar\29b279934bfc3b1620cf4fcaf2ba497f\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-base:17.1.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-ads-base-17.1.3.aar\29b279934bfc3b1620cf4fcaf2ba497f\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-iid-license:12.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-iid-license-12.0.1.aar\db9295adf352a1a0b7c8a1e413613a26\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid-license:12.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-iid-license-12.0.1.aar\db9295adf352a1a0b7c8a1e413613a26\AndroidManifest.xml:20:5-44
+INJECTED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml
+INJECTED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.google.android.gms:play-services-ads:17.1.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-ads-17.1.3.aar\c252889b7fc367601e6f17b4e6a6efde\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml
+		INJECTED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml
+		INJECTED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:46:13-48:57
+	android:resource
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:48:17-55
+	android:name
+		ADDED from C:\JONATHAN\PROJET\woocommerce\app\src\main\AndroidManifest.xml:47:17-67
+activity#com.braintreepayments.api.threedsecure.ThreeDSecureWebViewActivity
+ADDED from [com.braintreepayments.api:drop-in:3.7.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\drop-in-3.7.1.aar\b13f406652f3faefa989045e178d84cc\AndroidManifest.xml:18:9-20:62
+MERGED from [com.braintreepayments.api:braintree:2.18.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\braintree-2.18.1.aar\d776384491ac3fff37658df18a7d9969\AndroidManifest.xml:21:9-103
+MERGED from [com.braintreepayments.api:braintree:2.18.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\braintree-2.18.1.aar\d776384491ac3fff37658df18a7d9969\AndroidManifest.xml:21:9-103
+	android:theme
+		ADDED from [com.braintreepayments.api:drop-in:3.7.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\drop-in-3.7.1.aar\b13f406652f3faefa989045e178d84cc\AndroidManifest.xml:20:13-59
+	android:name
+		ADDED from [com.braintreepayments.api:drop-in:3.7.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\drop-in-3.7.1.aar\b13f406652f3faefa989045e178d84cc\AndroidManifest.xml:19:13-94
+activity#com.braintreepayments.api.dropin.DropInActivity
+ADDED from [com.braintreepayments.api:drop-in:3.7.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\drop-in-3.7.1.aar\b13f406652f3faefa989045e178d84cc\AndroidManifest.xml:21:9-23:64
+	android:theme
+		ADDED from [com.braintreepayments.api:drop-in:3.7.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\drop-in-3.7.1.aar\b13f406652f3faefa989045e178d84cc\AndroidManifest.xml:23:13-61
+	android:name
+		ADDED from [com.braintreepayments.api:drop-in:3.7.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\drop-in-3.7.1.aar\b13f406652f3faefa989045e178d84cc\AndroidManifest.xml:22:13-75
+activity#com.braintreepayments.api.dropin.AddCardActivity
+ADDED from [com.braintreepayments.api:drop-in:3.7.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\drop-in-3.7.1.aar\b13f406652f3faefa989045e178d84cc\AndroidManifest.xml:24:9-26:65
+	android:theme
+		ADDED from [com.braintreepayments.api:drop-in:3.7.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\drop-in-3.7.1.aar\b13f406652f3faefa989045e178d84cc\AndroidManifest.xml:26:13-62
+	android:name
+		ADDED from [com.braintreepayments.api:drop-in:3.7.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\drop-in-3.7.1.aar\b13f406652f3faefa989045e178d84cc\AndroidManifest.xml:25:13-76
+activity#com.braintreepayments.api.dropin.VaultManagerActivity
+ADDED from [com.braintreepayments.api:drop-in:3.7.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\drop-in-3.7.1.aar\b13f406652f3faefa989045e178d84cc\AndroidManifest.xml:27:9-29:70
+	android:theme
+		ADDED from [com.braintreepayments.api:drop-in:3.7.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\drop-in-3.7.1.aar\b13f406652f3faefa989045e178d84cc\AndroidManifest.xml:29:13-67
+	android:name
+		ADDED from [com.braintreepayments.api:drop-in:3.7.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\drop-in-3.7.1.aar\b13f406652f3faefa989045e178d84cc\AndroidManifest.xml:28:13-81
+activity#com.facebook.CustomTabMainActivity
+ADDED from [com.facebook.android:facebook-common:4.40.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\facebook-common-4.40.0.aar\154712c807d58534f77cc2a97eabead2\AndroidManifest.xml:33:9-71
+	android:name
+		ADDED from [com.facebook.android:facebook-common:4.40.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\facebook-common-4.40.0.aar\154712c807d58534f77cc2a97eabead2\AndroidManifest.xml:33:19-68
+activity#com.facebook.CustomTabActivity
+ADDED from [com.facebook.android:facebook-common:4.40.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\facebook-common-4.40.0.aar\154712c807d58534f77cc2a97eabead2\AndroidManifest.xml:34:9-67
+	android:name
+		ADDED from [com.facebook.android:facebook-common:4.40.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\facebook-common-4.40.0.aar\154712c807d58534f77cc2a97eabead2\AndroidManifest.xml:34:19-64
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:8:5-10:47
+	android:protectionLevel
+		ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:10:9-44
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:9:9-63
+permission#com.yellomark.androidwoocommerce.permission.C2D_MESSAGE
+ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:8:5-10:47
+	android:protectionLevel
+		ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:10:9-44
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:9:9-63
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:12:22-76
+uses-permission#com.yellomark.androidwoocommerce.permission.C2D_MESSAGE
+ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:12:22-76
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:18:5-82
+MERGED from [com.google.android.gms:play-services-gcm:12.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-gcm-12.0.1.aar\b8aad7c0de66bc6767b8f4b784e874f3\AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-gcm:12.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-gcm-12.0.1.aar\b8aad7c0de66bc6767b8f4b784e874f3\AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-iid:12.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-iid-12.0.1.aar\36e8867ec205412c1158d28612d5b042\AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-iid:12.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-iid-12.0.1.aar\36e8867ec205412c1158d28612d5b042\AndroidManifest.xml:23:5-82
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\e4df406626c0b39f09430d391d7f040c\AndroidManifest.xml:26:5-82
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\e4df406626c0b39f09430d391d7f040c\AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:18:22-79
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:19:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.3.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.3.0.aar\86734e32583a33800b8953fcb544d7a1\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.3.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.3.0.aar\86734e32583a33800b8953fcb544d7a1\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.3.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.3.0.aar\901195fc4e5e8f3089bb539820d8b7d2\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.3.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.3.0.aar\901195fc4e5e8f3089bb539820d8b7d2\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\e4df406626c0b39f09430d391d7f040c\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\e4df406626c0b39f09430d391d7f040c\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.3.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-api-16.3.0.aar\e4cfe9754cdbc1bf7a34031b647885a2\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.3.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-api-16.3.0.aar\e4cfe9754cdbc1bf7a34031b647885a2\AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:19:22-65
+uses-permission#android.permission.VIBRATE
+ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:24:5-66
+MERGED from [io.card:android-sdk:5.5.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\android-sdk-5.5.1.aar\a6a6e79cfd389f2d3a847b6d4fc87863\AndroidManifest.xml:10:5-66
+MERGED from [io.card:android-sdk:5.5.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\android-sdk-5.5.1.aar\a6a6e79cfd389f2d3a847b6d4fc87863\AndroidManifest.xml:10:5-66
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:24:22-63
+uses-permission#com.sec.android.provider.badge.permission.READ
+ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:32:5-86
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:32:22-83
+uses-permission#com.sec.android.provider.badge.permission.WRITE
+ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:33:5-87
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:33:22-84
+uses-permission#com.htc.launcher.permission.READ_SETTINGS
+ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:34:5-81
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:34:22-78
+uses-permission#com.htc.launcher.permission.UPDATE_SHORTCUT
+ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:35:5-83
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:35:22-80
+uses-permission#com.sonyericsson.home.permission.BROADCAST_BADGE
+ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:36:5-88
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:36:22-85
+uses-permission#com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:37:5-92
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:37:22-89
+uses-permission#com.anddoes.launcher.permission.UPDATE_COUNT
+ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:38:5-84
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:38:22-81
+uses-permission#com.majeur.launcher.permission.UPDATE_BADGE
+ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:39:5-83
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:39:22-80
+uses-permission#com.huawei.android.launcher.permission.CHANGE_BADGE
+ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:40:5-91
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:40:22-88
+uses-permission#com.huawei.android.launcher.permission.READ_SETTINGS
+ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:41:5-92
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:41:22-89
+uses-permission#com.huawei.android.launcher.permission.WRITE_SETTINGS
+ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:42:5-93
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:42:22-90
+uses-permission#android.permission.READ_APP_BADGE
+ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:43:5-73
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:43:22-70
+uses-permission#com.oppo.launcher.permission.READ_SETTINGS
+ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:44:5-82
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:44:22-79
+uses-permission#com.oppo.launcher.permission.WRITE_SETTINGS
+ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:45:5-83
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:45:22-80
+uses-permission#me.everything.badger.permission.BADGE_COUNT_READ
+ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:46:5-88
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:46:22-85
+uses-permission#me.everything.badger.permission.BADGE_COUNT_WRITE
+ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:47:5-89
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:47:22-86
+meta-data#onesignal_app_id
+ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:50:9-52:51
+	android:value
+		ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:52:13-48
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:51:13-44
+meta-data#onesignal_google_project_number
+ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:54:9-56:70
+	android:value
+		ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:56:13-67
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:55:13-59
+receiver#com.onesignal.GcmBroadcastReceiver
+ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:58:9-68:20
+	android:permission
+		ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:60:13-73
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:59:13-62
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
+ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:63:13-67:29
+	android:priority
+		ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:63:28-50
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.yellomark.androidwoocommerce
+ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:63:13-67:29
+	android:priority
+		ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:63:28-50
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:64:17-81
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:64:25-78
+category#${applicationId}
+ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:66:17-61
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:66:27-58
+category#com.yellomark.androidwoocommerce
+ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:66:17-61
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:66:27-58
+receiver#com.onesignal.NotificationOpenedReceiver
+ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:69:9-77
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:69:19-74
+service#com.onesignal.GcmIntentService
+ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:71:9-66
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:71:18-63
+service#com.onesignal.GcmIntentJobService
+ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:72:9-74:72
+	android:permission
+		ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:74:13-69
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:73:13-61
+service#com.onesignal.RestoreJobService
+ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:75:9-77:72
+	android:permission
+		ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:77:13-69
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:76:13-59
+service#com.onesignal.RestoreKickoffJobService
+ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:78:9-80:72
+	android:permission
+		ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:80:13-69
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:79:13-66
+service#com.onesignal.SyncService
+ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:81:9-83:43
+	android:stopWithTask
+		ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:83:13-40
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:82:13-53
+service#com.onesignal.SyncJobService
+ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:84:9-86:72
+	android:permission
+		ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:86:13-69
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:85:13-56
+activity#com.onesignal.PermissionsActivity
+ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:88:9-90:75
+	android:theme
+		ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:90:13-72
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:89:13-61
+service#com.onesignal.NotificationRestoreService
+ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:92:9-76
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:92:18-73
+receiver#com.onesignal.BootUpReceiver
+ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:94:9-100:20
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:94:19-62
+intent-filter#action:name:android.intent.action.ACTION_BOOT_COMPLETED+action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.QUICKBOOT_POWERON
+ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:95:13-99:29
+action#android.intent.action.ACTION_BOOT_COMPLETED
+ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:96:17-86
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:96:25-83
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:98:17-82
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:98:25-79
+receiver#com.onesignal.UpgradeReceiver
+ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:101:9-105:20
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:101:19-63
+intent-filter#action:name:android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:102:13-104:29
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:103:17-84
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.8.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.3.aar\7cb956b1e5dd10cc94e698ca896629ca\AndroidManifest.xml:103:25-81
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.1.0.aar\de5146f9a2f9fee694bedd55ff791083\AndroidManifest.xml:24:9-31:50
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.1.0.aar\de5146f9a2f9fee694bedd55ff791083\AndroidManifest.xml:26:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.1.0.aar\de5146f9a2f9fee694bedd55ff791083\AndroidManifest.xml:28:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.1.0.aar\de5146f9a2f9fee694bedd55ff791083\AndroidManifest.xml:27:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.1.0.aar\de5146f9a2f9fee694bedd55ff791083\AndroidManifest.xml:29:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.1.0.aar\de5146f9a2f9fee694bedd55ff791083\AndroidManifest.xml:30:13-72
+	tools:replace
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.1.0.aar\de5146f9a2f9fee694bedd55ff791083\AndroidManifest.xml:31:13-47
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.1.0.aar\de5146f9a2f9fee694bedd55ff791083\AndroidManifest.xml:25:13-85
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.1.0.aar\de5146f9a2f9fee694bedd55ff791083\AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\e4df406626c0b39f09430d391d7f040c\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\e4df406626c0b39f09430d391d7f040c\AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.1.0.aar\de5146f9a2f9fee694bedd55ff791083\AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.1.0.aar\de5146f9a2f9fee694bedd55ff791083\AndroidManifest.xml:34:13-84
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.1.0.aar\de5146f9a2f9fee694bedd55ff791083\AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.1.0.aar\de5146f9a2f9fee694bedd55ff791083\AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.1.0.aar\de5146f9a2f9fee694bedd55ff791083\AndroidManifest.xml:37:17-109
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.4.aar\2d5b18bf3b1b0c3e4f3b51a81d0bacda\AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.4.aar\2d5b18bf3b1b0c3e4f3b51a81d0bacda\AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.4.aar\2d5b18bf3b1b0c3e4f3b51a81d0bacda\AndroidManifest.xml:29:13-82
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-auth-16.0.1.aar\04687f4071aac602da1bee109cf5d443\AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-auth-16.0.1.aar\04687f4071aac602da1bee109cf5d443\AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-auth-16.0.1.aar\04687f4071aac602da1bee109cf5d443\AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-auth-16.0.1.aar\04687f4071aac602da1bee109cf5d443\AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-auth-16.0.1.aar\04687f4071aac602da1bee109cf5d443\AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-auth-16.0.1.aar\04687f4071aac602da1bee109cf5d443\AndroidManifest.xml:33:9-36:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-auth-16.0.1.aar\04687f4071aac602da1bee109cf5d443\AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-auth-16.0.1.aar\04687f4071aac602da1bee109cf5d443\AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-auth-16.0.1.aar\04687f4071aac602da1bee109cf5d443\AndroidManifest.xml:34:13-89
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.1.0.aar\f00c5492b0167e58627e59b5bdd5f064\AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.1.0.aar\f00c5492b0167e58627e59b5bdd5f064\AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.1.0.aar\f00c5492b0167e58627e59b5bdd5f064\AndroidManifest.xml:28:9-32
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.1.0.aar\f00c5492b0167e58627e59b5bdd5f064\AndroidManifest.xml:33:9-35:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.1.0.aar\f00c5492b0167e58627e59b5bdd5f064\AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.1.0.aar\f00c5492b0167e58627e59b5bdd5f064\AndroidManifest.xml:34:13-50
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.firebase:firebase-analytics:16.3.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.3.0.aar\86734e32583a33800b8953fcb544d7a1\AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.3.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.3.0.aar\901195fc4e5e8f3089bb539820d8b7d2\AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.3.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.3.0.aar\901195fc4e5e8f3089bb539820d8b7d2\AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.3.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.3.0.aar\86734e32583a33800b8953fcb544d7a1\AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.3.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.3.0.aar\86734e32583a33800b8953fcb544d7a1\AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.3.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.3.0.aar\86734e32583a33800b8953fcb544d7a1\AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.3.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.3.0.aar\86734e32583a33800b8953fcb544d7a1\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.3.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.3.0.aar\86734e32583a33800b8953fcb544d7a1\AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.3.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.3.0.aar\86734e32583a33800b8953fcb544d7a1\AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.3.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.3.0.aar\901195fc4e5e8f3089bb539820d8b7d2\AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.3.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.3.0.aar\901195fc4e5e8f3089bb539820d8b7d2\AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.3.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.3.0.aar\86734e32583a33800b8953fcb544d7a1\AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.3.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.3.0.aar\86734e32583a33800b8953fcb544d7a1\AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.3.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.3.0.aar\86734e32583a33800b8953fcb544d7a1\AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.3.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.3.0.aar\86734e32583a33800b8953fcb544d7a1\AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.3.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.3.0.aar\86734e32583a33800b8953fcb544d7a1\AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.3.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.3.0.aar\86734e32583a33800b8953fcb544d7a1\AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.3.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.3.0.aar\86734e32583a33800b8953fcb544d7a1\AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:16.3.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.3.0.aar\86734e32583a33800b8953fcb544d7a1\AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.3.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.3.0.aar\86734e32583a33800b8953fcb544d7a1\AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.3.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.3.0.aar\86734e32583a33800b8953fcb544d7a1\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.3.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.3.0.aar\86734e32583a33800b8953fcb544d7a1\AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:16.3.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.3.0.aar\86734e32583a33800b8953fcb544d7a1\AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.3.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.3.0.aar\86734e32583a33800b8953fcb544d7a1\AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.3.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.3.0.aar\86734e32583a33800b8953fcb544d7a1\AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.3.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.3.0.aar\86734e32583a33800b8953fcb544d7a1\AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.3.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.3.0.aar\86734e32583a33800b8953fcb544d7a1\AndroidManifest.xml:49:13-87
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\e4df406626c0b39f09430d391d7f040c\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\e4df406626c0b39f09430d391d7f040c\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\e4df406626c0b39f09430d391d7f040c\AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\e4df406626c0b39f09430d391d7f040c\AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\e4df406626c0b39f09430d391d7f040c\AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\e4df406626c0b39f09430d391d7f040c\AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\e4df406626c0b39f09430d391d7f040c\AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\e4df406626c0b39f09430d391d7f040c\AndroidManifest.xml:41:13-43:29
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\e4df406626c0b39f09430d391d7f040c\AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\e4df406626c0b39f09430d391d7f040c\AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\e4df406626c0b39f09430d391d7f040c\AndroidManifest.xml:51:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\fa3ab03b57e0b5d9fa7864d1ee6f4e08\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\fa3ab03b57e0b5d9fa7864d1ee6f4e08\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\fa3ab03b57e0b5d9fa7864d1ee6f4e08\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\fa3ab03b57e0b5d9fa7864d1ee6f4e08\AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\8f393d3d29a13b642c74dde2cae08c5b\AndroidManifest.xml:10:9-14:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\8f393d3d29a13b642c74dde2cae08c5b\AndroidManifest.xml:12:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\8f393d3d29a13b642c74dde2cae08c5b\AndroidManifest.xml:13:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\8f393d3d29a13b642c74dde2cae08c5b\AndroidManifest.xml:14:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\8f393d3d29a13b642c74dde2cae08c5b\AndroidManifest.xml:11:13-77
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:17.1.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-17.1.3.aar\d4c700a550188cb53a066929e5c7e481\AndroidManifest.xml:29:9-33:64
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:17.1.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-17.1.3.aar\d4c700a550188cb53a066929e5c7e481\AndroidManifest.xml:32:13-37
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:17.1.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-17.1.3.aar\d4c700a550188cb53a066929e5c7e481\AndroidManifest.xml:31:13-122
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:17.1.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-17.1.3.aar\d4c700a550188cb53a066929e5c7e481\AndroidManifest.xml:33:13-61
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:17.1.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-17.1.3.aar\d4c700a550188cb53a066929e5c7e481\AndroidManifest.xml:30:13-65
+provider#com.google.android.gms.ads.MobileAdsInitProvider
+ADDED from [com.google.android.gms:play-services-ads-lite:17.1.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-17.1.3.aar\d4c700a550188cb53a066929e5c7e481\AndroidManifest.xml:35:9-39:39
+	android:authorities
+		ADDED from [com.google.android.gms:play-services-ads-lite:17.1.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-17.1.3.aar\d4c700a550188cb53a066929e5c7e481\AndroidManifest.xml:37:13-73
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:17.1.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-17.1.3.aar\d4c700a550188cb53a066929e5c7e481\AndroidManifest.xml:38:13-37
+	android:initOrder
+		ADDED from [com.google.android.gms:play-services-ads-lite:17.1.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-17.1.3.aar\d4c700a550188cb53a066929e5c7e481\AndroidManifest.xml:39:13-36
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:17.1.3] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-17.1.3.aar\d4c700a550188cb53a066929e5c7e481\AndroidManifest.xml:36:13-76
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.1.0.aar\af74d1f471b127a8b1f7e489435de367\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.1.0.aar\af74d1f471b127a8b1f7e489435de367\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.1.0.aar\af74d1f471b127a8b1f7e489435de367\AndroidManifest.xml:24:13-58
+activity#com.paypal.android.sdk.payments.PaymentActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.16.0.aar\556d69c27bd9b023f6b542216f9ffb32\AndroidManifest.xml:13:9-84
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.16.0.aar\556d69c27bd9b023f6b542216f9ffb32\AndroidManifest.xml:13:19-81
+activity#com.paypal.android.sdk.payments.PaymentMethodActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.16.0.aar\556d69c27bd9b023f6b542216f9ffb32\AndroidManifest.xml:14:9-90
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.16.0.aar\556d69c27bd9b023f6b542216f9ffb32\AndroidManifest.xml:14:19-87
+activity#com.paypal.android.sdk.payments.PaymentConfirmActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.16.0.aar\556d69c27bd9b023f6b542216f9ffb32\AndroidManifest.xml:15:9-91
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.16.0.aar\556d69c27bd9b023f6b542216f9ffb32\AndroidManifest.xml:15:19-88
+activity#com.paypal.android.sdk.payments.LoginActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.16.0.aar\556d69c27bd9b023f6b542216f9ffb32\AndroidManifest.xml:16:9-82
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.16.0.aar\556d69c27bd9b023f6b542216f9ffb32\AndroidManifest.xml:16:19-79
+activity#com.paypal.android.sdk.payments.PayPalFuturePaymentActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.16.0.aar\556d69c27bd9b023f6b542216f9ffb32\AndroidManifest.xml:17:9-96
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.16.0.aar\556d69c27bd9b023f6b542216f9ffb32\AndroidManifest.xml:17:19-93
+activity#com.paypal.android.sdk.payments.FuturePaymentConsentActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.16.0.aar\556d69c27bd9b023f6b542216f9ffb32\AndroidManifest.xml:18:9-97
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.16.0.aar\556d69c27bd9b023f6b542216f9ffb32\AndroidManifest.xml:18:19-94
+activity#com.paypal.android.sdk.payments.FuturePaymentInfoActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.16.0.aar\556d69c27bd9b023f6b542216f9ffb32\AndroidManifest.xml:19:9-94
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.16.0.aar\556d69c27bd9b023f6b542216f9ffb32\AndroidManifest.xml:19:19-91
+activity#com.paypal.android.sdk.payments.PayPalProfileSharingActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.16.0.aar\556d69c27bd9b023f6b542216f9ffb32\AndroidManifest.xml:20:9-97
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.16.0.aar\556d69c27bd9b023f6b542216f9ffb32\AndroidManifest.xml:20:19-94
+activity#com.paypal.android.sdk.payments.ProfileSharingConsentActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.16.0.aar\556d69c27bd9b023f6b542216f9ffb32\AndroidManifest.xml:21:9-98
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.16.0.aar\556d69c27bd9b023f6b542216f9ffb32\AndroidManifest.xml:21:19-95
+service#com.paypal.android.sdk.payments.PayPalService
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.16.0.aar\556d69c27bd9b023f6b542216f9ffb32\AndroidManifest.xml:23:9-25:40
+	android:exported
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.16.0.aar\556d69c27bd9b023f6b542216f9ffb32\AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.16.0.aar\556d69c27bd9b023f6b542216f9ffb32\AndroidManifest.xml:24:13-73
+activity#com.braintreepayments.api.AndroidPayActivity
+ADDED from [com.braintreepayments.api:braintree:2.18.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\braintree-2.18.1.aar\d776384491ac3fff37658df18a7d9969\AndroidManifest.xml:15:9-17:62
+	android:theme
+		ADDED from [com.braintreepayments.api:braintree:2.18.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\braintree-2.18.1.aar\d776384491ac3fff37658df18a7d9969\AndroidManifest.xml:17:13-59
+	android:name
+		ADDED from [com.braintreepayments.api:braintree:2.18.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\braintree-2.18.1.aar\d776384491ac3fff37658df18a7d9969\AndroidManifest.xml:16:13-72
+activity#com.braintreepayments.api.GooglePaymentActivity
+ADDED from [com.braintreepayments.api:braintree:2.18.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\braintree-2.18.1.aar\d776384491ac3fff37658df18a7d9969\AndroidManifest.xml:18:9-20:62
+	android:theme
+		ADDED from [com.braintreepayments.api:braintree:2.18.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\braintree-2.18.1.aar\d776384491ac3fff37658df18a7d9969\AndroidManifest.xml:20:13-59
+	android:name
+		ADDED from [com.braintreepayments.api:braintree:2.18.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\braintree-2.18.1.aar\d776384491ac3fff37658df18a7d9969\AndroidManifest.xml:19:13-75
+service#com.braintreepayments.api.internal.AnalyticsIntentService
+ADDED from [com.braintreepayments.api:braintree:2.18.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\braintree-2.18.1.aar\d776384491ac3fff37658df18a7d9969\AndroidManifest.xml:23:9-93
+	android:name
+		ADDED from [com.braintreepayments.api:braintree:2.18.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\braintree-2.18.1.aar\d776384491ac3fff37658df18a7d9969\AndroidManifest.xml:23:18-90
+provider#com.facebook.marketing.internal.MarketingInitProvider
+ADDED from [com.facebook.android:facebook-marketing:4.40.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\facebook-marketing-4.40.0.aar\177d6c414b3f3ec534f8a4071ad430b4\AndroidManifest.xml:29:9-32:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-marketing:4.40.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\facebook-marketing-4.40.0.aar\177d6c414b3f3ec534f8a4071ad430b4\AndroidManifest.xml:31:13-73
+	android:exported
+		ADDED from [com.facebook.android:facebook-marketing:4.40.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\facebook-marketing-4.40.0.aar\177d6c414b3f3ec534f8a4071ad430b4\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-marketing:4.40.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\facebook-marketing-4.40.0.aar\177d6c414b3f3ec534f8a4071ad430b4\AndroidManifest.xml:30:13-81
+provider#com.facebook.internal.FacebookInitProvider
+ADDED from [com.facebook.android:facebook-core:4.40.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\facebook-core-4.40.0.aar\4430a0825dbae39705c0ae739bcc73bc\AndroidManifest.xml:39:9-42:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-core:4.40.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\facebook-core-4.40.0.aar\4430a0825dbae39705c0ae739bcc73bc\AndroidManifest.xml:41:13-72
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:4.40.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\facebook-core-4.40.0.aar\4430a0825dbae39705c0ae739bcc73bc\AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.40.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\facebook-core-4.40.0.aar\4430a0825dbae39705c0ae739bcc73bc\AndroidManifest.xml:40:13-70
+receiver#com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
+ADDED from [com.facebook.android:facebook-core:4.40.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\facebook-core-4.40.0.aar\4430a0825dbae39705c0ae739bcc73bc\AndroidManifest.xml:44:9-50:20
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:4.40.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\facebook-core-4.40.0.aar\4430a0825dbae39705c0ae739bcc73bc\AndroidManifest.xml:46:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.40.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\facebook-core-4.40.0.aar\4430a0825dbae39705c0ae739bcc73bc\AndroidManifest.xml:45:13-86
+intent-filter#action:name:com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:4.40.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\facebook-core-4.40.0.aar\4430a0825dbae39705c0ae739bcc73bc\AndroidManifest.xml:47:13-49:29
+action#com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:4.40.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\facebook-core-4.40.0.aar\4430a0825dbae39705c0ae739bcc73bc\AndroidManifest.xml:48:17-95
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.40.0] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\facebook-core-4.40.0.aar\4430a0825dbae39705c0ae739bcc73bc\AndroidManifest.xml:48:25-92
+uses-feature#android.hardware.camera
+ADDED from [io.card:android-sdk:5.5.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\android-sdk-5.5.1.aar\a6a6e79cfd389f2d3a847b6d4fc87863\AndroidManifest.xml:12:5-14:36
+	android:required
+		ADDED from [io.card:android-sdk:5.5.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\android-sdk-5.5.1.aar\a6a6e79cfd389f2d3a847b6d4fc87863\AndroidManifest.xml:14:9-33
+	android:name
+		ADDED from [io.card:android-sdk:5.5.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\android-sdk-5.5.1.aar\a6a6e79cfd389f2d3a847b6d4fc87863\AndroidManifest.xml:13:9-47
+uses-feature#android.hardware.camera.autofocus
+ADDED from [io.card:android-sdk:5.5.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\android-sdk-5.5.1.aar\a6a6e79cfd389f2d3a847b6d4fc87863\AndroidManifest.xml:15:5-17:36
+	android:required
+		ADDED from [io.card:android-sdk:5.5.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\android-sdk-5.5.1.aar\a6a6e79cfd389f2d3a847b6d4fc87863\AndroidManifest.xml:17:9-33
+	android:name
+		ADDED from [io.card:android-sdk:5.5.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\android-sdk-5.5.1.aar\a6a6e79cfd389f2d3a847b6d4fc87863\AndroidManifest.xml:16:9-57
+activity#io.card.payment.CardIOActivity
+ADDED from [io.card:android-sdk:5.5.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\android-sdk-5.5.1.aar\a6a6e79cfd389f2d3a847b6d4fc87863\AndroidManifest.xml:20:9-22:66
+	android:configChanges
+		ADDED from [io.card:android-sdk:5.5.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\android-sdk-5.5.1.aar\a6a6e79cfd389f2d3a847b6d4fc87863\AndroidManifest.xml:22:13-63
+	android:name
+		ADDED from [io.card:android-sdk:5.5.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\android-sdk-5.5.1.aar\a6a6e79cfd389f2d3a847b6d4fc87863\AndroidManifest.xml:21:13-58
+activity#io.card.payment.DataEntryActivity
+ADDED from [io.card:android-sdk:5.5.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\android-sdk-5.5.1.aar\a6a6e79cfd389f2d3a847b6d4fc87863\AndroidManifest.xml:23:9-70
+	android:name
+		ADDED from [io.card:android-sdk:5.5.1] C:\Users\yalaetyves\.gradle\caches\transforms-1\files-1.1\android-sdk-5.5.1.aar\a6a6e79cfd389f2d3a847b6d4fc87863\AndroidManifest.xml:23:19-67

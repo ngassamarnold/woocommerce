@@ -1,0 +1,10 @@
+#Wed Feb 20 15:43:44 WAT 2019
+path.2=classes3.dex
+path.1=classes2.dex
+path.0=classes.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+base.2=C\:\\JONATHAN\\PROJET\\woocommerce\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+base.1=C\:\\JONATHAN\\PROJET\\woocommerce\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+base.0=C\:\\JONATHAN\\PROJET\\woocommerce\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
