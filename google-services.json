@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "978799859180",
+    "firebase_url": "https://yellomark.firebaseio.com",
+    "project_id": "yellomark",
+    "storage_bucket": "yellomark.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:978799859180:android:d190204e348e0f01",
+        "android_client_info": {
+          "package_name": "com.yellomark"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "978799859180-se1v7ieos3rjvv9iobj0440vhurj3157.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yellomark",
+            "certificate_hash": "48180b1a570465583a92e8c1e1823a7521a7a5bd"
+          }
+        },
+        {
+          "client_id": "978799859180-v8qvn8s7pik43hs259k67eeekf0808uq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yellomark",
+            "certificate_hash": "b604292a6ffa784d191067ec6d07860a29cdbab9"
+          }
+        },
+        {
+          "client_id": "978799859180-t90cc1r72hh5u706vdtkd5ampjlfog1m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRqTzwQJtwa8y4j_EW9aU0kstfHHEDj2U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "978799859180-t90cc1r72hh5u706vdtkd5ampjlfog1m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
