@@ -158,6 +158,16 @@ public class MainActivity extends AppCompatActivity {
         actionBar.setTitle(ConstantValues.APP_HEADER);
         actionBar.setHomeButtonEnabled(true);
         actionBar.setDisplayHomeAsUpEnabled(true);
+
+        Fragment fragment;
+        FragmentManager fragmentManager = getSupportFragmentManager();
+
+        // Navigate to any selected HomePage Fragment
+        fragment = new HomePage_1();
+        fragmentManager.beginTransaction()
+                .replace(R.id.main_fragment, fragment)
+                .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN)
+                .commit();
         
         
         appSettings = ((App) getApplicationContext()).getAppSettingsDetails();
@@ -335,11 +345,13 @@ public class MainActivity extends AppCompatActivity {
         
         if (appSettings != null) {
             
-            listDataHeader.add(new Drawer_Items(R.drawable.ic_home, getString(R.string.actionHome)));
+           listDataHeader.add(new Drawer_Items(R.drawable.ic_home, getString(R.string.actionHome)));
             listDataHeader.add(new Drawer_Items(R.drawable.ic_categories, getString(R.string.actionCategories)));
             listDataHeader.add(new Drawer_Items(R.drawable.ic_cart, getString(R.string.actionShop)));
 
             listDataHeader.add(new Drawer_Items(R.drawable.ic_favorite, getString(R.string.actionFavourites)));
+            listDataHeader.add(new Drawer_Items(R.drawable.ic_share, getString(R.string.actionShareApp)));
+
 
 
             if ("1".equalsIgnoreCase(appSettings.getEditProfilePage()))
@@ -378,8 +390,7 @@ public class MainActivity extends AppCompatActivity {
                 listDataHeader.add(new Drawer_Items(R.drawable.ic_logout, getString(R.string.actionLogin)));
             }
             
-            
-            if (!ConstantValues.IS_CLIENT_ACTIVE) {
+            //if (!ConstantValues.IS_CLIENT_ACTIVE) {
                 List<Drawer_Items> home_styles = new ArrayList<>();
                 home_styles.add(new Drawer_Items(R.drawable.ic_home, getString(R.string.homeStyle1)));
                 home_styles.add(new Drawer_Items(R.drawable.ic_home, getString(R.string.homeStyle2)));
@@ -405,7 +416,7 @@ public class MainActivity extends AppCompatActivity {
                 listDataChild.put(listDataHeader.get(0), home_styles);
                 listDataChild.put(listDataHeader.get(1), category_styles);
                 listDataChild.put(listDataHeader.get(2), shop_childs);
-            }
+          //  }
             
             
         }

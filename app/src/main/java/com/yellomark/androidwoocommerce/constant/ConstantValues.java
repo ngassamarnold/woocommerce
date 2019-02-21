@@ -34,7 +34,7 @@ public class ConstantValues {
     public static boolean IS_GUEST_CHECKOUT_ENABLED;
     public static boolean IS_ONE_PAGE_CHECKOUT_ENABLED;
     
-    public static boolean IS_GOOGLE_LOGIN_ENABLED;
+    public static boolean IS_GOOGLE_LOGIN_ENABLED=true;;
     public static boolean IS_FACEBOOK_LOGIN_ENABLED=true;
     public static boolean IS_ADD_TO_CART_BUTTON_ENABLED;
     

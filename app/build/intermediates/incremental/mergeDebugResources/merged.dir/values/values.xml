@@ -109,14 +109,14 @@
     <color name="cardview_light_background">#FFFFFFFF</color>
     <color name="cardview_shadow_end_color">#03000000</color>
     <color name="cardview_shadow_start_color">#37000000</color>
-    <color name="colorAccent">#51688F</color>
+    <color name="colorAccent">#fcb800</color>
     <color name="colorAccentBlue">#03a9f4</color>
     <color name="colorAccentDark">#536a93</color>
     <color name="colorAccentGreen">#557f5f</color>
     <color name="colorAccentGrey">#999999</color>
     <color name="colorAccentRed">#ff0000</color>
-    <color name="colorPrimary">#51688F</color>
-    <color name="colorPrimaryDark">#485c7f</color>
+    <color name="colorPrimary">#fcb800</color>
+    <color name="colorPrimaryDark">#fcb800</color>
     <color name="colorPrimaryLight">#5c76a3</color>
     <color name="com_facebook_blue">#3B5998</color>
     <color name="com_facebook_button_background_color">#415dae</color>
@@ -670,7 +670,7 @@
     <string name="add_coupon"> Add Coupon? </string>
     <string name="added_to_favourites"> Added to Favourites </string>
     <string name="additional_info"> Additional Info </string>
-    <string name="addmob_AppID" translatable="false">ca-app-pub-4302071774857897~9618655719 </string>
+    <string name="addmob_AppID" translatable="false"> ca-app-pub-4302071774857897~9618655719 </string>
     <string name="address"> Address </string>
     <string name="address_1"> Address 1 </string>
     <string name="address_2"> Address 2 </string>
@@ -680,7 +680,7 @@
     <string name="and"> and </string>
     <string name="app_intro_done_button">DONE</string>
     <string name="app_intro_skip_button">SKIP</string>
-    <string name="app_name" translatable="false"> Yello Mark </string>
+    <string name="app_name" translatable="false"> YELLO MARK </string>
     <string name="app_terms_services">
         Creating an account means you\'re okay with our
     </string>
@@ -862,7 +862,7 @@
     <string name="explore"> Explore </string>
     <string name="fab_transformation_scrim_behavior" translatable="false">android.support.design.transformation.FabTransformationScrimBehavior</string>
     <string name="fab_transformation_sheet_behavior" translatable="false">android.support.design.transformation.FabTransformationSheetBehavior</string>
-    <string name="facebook_app_id" translatable="false"> 294242604594730 </string>
+    <string name="facebook_app_id" translatable="false"> 393589218111183 </string>
     <string name="facebook_login"> Facebook Login </string>
     <string name="fcm_fallback_notification_channel_label">Miscellaneous</string>
     <string name="featured"> Featured </string>
@@ -873,7 +873,7 @@
     <string name="full_name"> Full Name </string>
     <string name="gcm_defaultSenderId" translatable="false">363680263570</string>
     <string name="gcm_fallback_notification_channel_label">Miscellaneous</string>
-    <string name="google_api_app_id" translatable="false">AIzaSyC3iZeNwsNoOajKQ4-GqiyysfZ5DRm-GIE</string>
+    <string name="google_api_app_id" translatable="false"> AIzaSyAqunOqRSw34sshDn9qxhZuCTntN_O1__Y </string>
     <string name="google_api_key" translatable="false">AIzaSyCesa-NM26UY0zQ4kqjWb7eeSMT8ybo5J8</string>
     <string name="google_app_id" translatable="false">1:363680263570:android:7c677e1eee221295</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCesa-NM26UY0zQ4kqjWb7eeSMT8ybo5J8</string>
@@ -912,6 +912,7 @@
     <string name="library_appintro_libraryWebsite">https://github.com/PaoloRotolo/AppIntro</string>
     <string name="library_appintro_licenseId">apache_2_0</string>
     <string name="library_appintro_repositoryLink">https://github.com/PaoloRotolo/AppIntro</string>
+    <string name="lien_invitation" translatable="false"> https://play.google.com/store/apps/details?id= </string>
     <string name="local_notification"> Local Notifications </string>
     <string name="login"> Login </string>
     <string name="login_or_create_account"> Please Login or create Account </string>
@@ -922,6 +923,7 @@
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
     </string>
+    <string name="message_invitation"> Hello!!!  yellomark your online store click on the link to join us! </string>
     <string name="messenger_send_button_text">Send to messanger</string>
     <string name="mobile"> Mobile </string>
     <string name="mtrl_chip_close_icon_content_description">Remove %1$s</string>

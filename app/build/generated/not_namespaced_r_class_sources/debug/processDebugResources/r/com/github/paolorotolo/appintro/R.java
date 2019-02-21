@@ -819,8 +819,8 @@ public final class R {
         public static final int library_appintro_libraryWebsite = 0x7f100132;
         public static final int library_appintro_licenseId = 0x7f100133;
         public static final int library_appintro_repositoryLink = 0x7f100134;
-        public static final int search_menu_title = 0x7f100182;
-        public static final int status_bar_notification_info_overflow = 0x7f10019b;
+        public static final int search_menu_title = 0x7f100184;
+        public static final int status_bar_notification_info_overflow = 0x7f10019d;
     }
     public static final class style {
         private style() {}

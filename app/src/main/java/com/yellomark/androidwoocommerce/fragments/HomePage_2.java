@@ -107,11 +107,11 @@ public class HomePage_2 extends Fragment implements BaseSliderView.OnSliderClick
 
         // Initialize New View for custom Tab
         View tabOne = (View) LayoutInflater.from(getContext()).inflate(R.layout.layout_tabs_custom, null);
-        
+
         // Set Text of custom Tab
         TextView tabText1 = (TextView) tabOne.findViewById(R.id.myTabs_text);
         tabText1.setText(getString(R.string.all));
-        
+
         // Set Icon of custom Tab
         ImageView tabIcon1 = (ImageView) tabOne.findViewById(R.id.myTabs_icon);
         tabIcon1.setImageResource(R.drawable.ic_list);
@@ -124,11 +124,11 @@ public class HomePage_2 extends Fragment implements BaseSliderView.OnSliderClick
 
             // Initialize New View for custom Tab
             View tabNew = (View) LayoutInflater.from(getContext()).inflate(R.layout.layout_tabs_custom, null);
-            
+
             // Set Text of custom Tab
             TextView tabText2 = (TextView) tabNew.findViewById(R.id.myTabs_text);
             tabText2.setText(allSubCategoriesList.get(i).getName());
-            
+
             // Set Icon of custom Tab
             ImageView tabIcon2 = (ImageView) tabNew.findViewById(R.id.myTabs_icon);
             if (allSubCategoriesList.get(i).getImage() != null  &&  allSubCategoriesList.get(i).getImage().getSrc() != null) {
@@ -137,9 +137,9 @@ public class HomePage_2 extends Fragment implements BaseSliderView.OnSliderClick
             else {
                 Glide.with(getContext()).load(R.drawable.ic_categories).into(tabIcon2);
             }
-            
 
-            
+
+
             // Add tabTwo to TabLayout at specified index
             tabLayout.getTabAt(i+1).setCustomView(tabNew);
         }
@@ -177,21 +177,21 @@ public class HomePage_2 extends Fragment implements BaseSliderView.OnSliderClick
         // Attach the ViewPagerAdapter to given ViewPager
         viewPager.setAdapter(viewPagerAdapter);
     }
-    
-    
-    
+
+
+
     //*********** Setup the BannerSlider with the given List of BannerImages ********//
-    
+
     private void setupBannerSlider(final List<BannerDetails> bannerImages) {
-        
+
         // Initialize new LinkedHashMap<ImageName, ImagePath>
         final LinkedHashMap<String, String> slider_covers = new LinkedHashMap<>();
-        
-        
+
+
         for (int i=0;  i< bannerImages.size();  i++) {
             // Get bannerDetails at given Position from bannerImages List
             BannerDetails bannerDetails =  bannerImages.get(i);
-            
+
             // Put Image's Name and URL to the HashMap slider_covers
             slider_covers.put
                     (
@@ -199,28 +199,28 @@ public class HomePage_2 extends Fragment implements BaseSliderView.OnSliderClick
                             bannerDetails.getBannersImage()
                     );
         }
-        
-        
+
+
         for(String name : slider_covers.keySet()) {
             // Initialize DefaultSliderView
             final DefaultSliderView defaultSliderView = new DefaultSliderView(getContext());
-            
+
             // Set Attributes(Name, Image, Type etc) to DefaultSliderView
             defaultSliderView
                     .description(name)
                     .image(slider_covers.get(name))
                     .setScaleType(BaseSliderView.ScaleType.Fit)
                     .setOnSliderClickListener(this);
-            
-            
+
+
             // Add DefaultSliderView to the SliderLayout
             sliderLayout.addSlider(defaultSliderView);
         }
-        
+
         // Set PresetTransformer type of the SliderLayout
         sliderLayout.setPresetTransformer(SliderLayout.Transformer.Accordion);
-        
-        
+
+
         // Check if the size of Images in the Slider is less than 2
         if (slider_covers.size() < 2) {
             // Disable PagerTransformer
@@ -229,36 +229,36 @@ public class HomePage_2 extends Fragment implements BaseSliderView.OnSliderClick
                 protected void onTransform(View view, float v) {
                 }
             });
-            
+
             // Hide Slider PagerIndicator
             sliderLayout.setIndicatorVisibility(PagerIndicator.IndicatorVisibility.Invisible);
-            
+
         } else {
             // Set custom PagerIndicator to the SliderLayout
             sliderLayout.setCustomIndicator(pagerIndicator);
             // Make PagerIndicator Visible
             sliderLayout.setIndicatorVisibility(PagerIndicator.IndicatorVisibility.Visible);
         }
-        
+
     }
-    
-    
-    
+
+
+
     //*********** Handle the Click Listener on BannerImages of Slider ********//
-    
+
     @Override
     public void onSliderClick(BaseSliderView slider) {
-        
+
         int position = sliderLayout.getCurrentPosition();
         String url = bannerImages.get(position).getBannersUrl();
         String type = bannerImages.get(position).getType();
-        
+
         if (type.equalsIgnoreCase("product")) {
             if (!url.isEmpty()) {
                 // Get Product Info
                 Bundle bundle = new Bundle();
                 bundle.putInt("itemID", Integer.parseInt(url));
-                
+
                 // Navigate to Product_Description of selected Product
                 Fragment fragment = new Product_Description();
                 fragment.setArguments(bundle);
@@ -267,25 +267,25 @@ public class HomePage_2 extends Fragment implements BaseSliderView.OnSliderClick
                         .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE)
                         .addToBackStack(getString(R.string.actionHome)).commit();
             }
-            
+
         }
         else if (type.equalsIgnoreCase("category")) {
             if (!url.isEmpty()) {
                 int categoryID = 0;
                 String categoryName = "";
-                
+
                 for (int i=0;  i<allCategoriesList.size();  i++) {
                     if (url.equalsIgnoreCase(String.valueOf(allCategoriesList.get(i).getId()))) {
                         categoryName = allCategoriesList.get(i).getName();
                         categoryID = allCategoriesList.get(i).getId();
                     }
                 }
-                
+
                 // Get Category Info
                 Bundle bundle = new Bundle();
                 bundle.putInt("CategoryID", categoryID);
                 bundle.putString("CategoryName", categoryName);
-                
+
                 // Navigate to Products Fragment
                 Fragment fragment = new Products();
                 fragment.setArguments(bundle);
@@ -294,13 +294,13 @@ public class HomePage_2 extends Fragment implements BaseSliderView.OnSliderClick
                         .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE)
                         .addToBackStack(getString(R.string.actionHome)).commit();
             }
-            
+
         }
         else if (type.equalsIgnoreCase("on_sale")) {
             Bundle bundle = new Bundle();
             bundle.putBoolean("on_sale", true);
             bundle.putBoolean("isMenuItem", true);
-            
+
             // Navigate to Products Fragment
             Fragment fragment = new Products();
             fragment.setArguments(bundle);
@@ -308,13 +308,13 @@ public class HomePage_2 extends Fragment implements BaseSliderView.OnSliderClick
                     .replace(R.id.main_fragment, fragment)
                     .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE)
                     .addToBackStack(getString(R.string.actionHome)).commit();
-            
+
         }
         else if (type.equalsIgnoreCase("featured")) {
             Bundle bundle = new Bundle();
             bundle.putBoolean("featured", true);
             bundle.putBoolean("isMenuItem", true);
-            
+
             // Navigate to Products Fragment
             Fragment fragment = new Products();
             fragment.setArguments(bundle);
@@ -322,12 +322,12 @@ public class HomePage_2 extends Fragment implements BaseSliderView.OnSliderClick
                     .replace(R.id.main_fragment, fragment)
                     .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE)
                     .addToBackStack(getString(R.string.actionHome)).commit();
-            
+
         }
         else if (type.equalsIgnoreCase("latest")) {
             Bundle bundle = new Bundle();
             bundle.putBoolean("isMenuItem", true);
-            
+
             // Navigate to Products Fragment
             Fragment fragment = new Products();
             fragment.setArguments(bundle);
@@ -335,9 +335,9 @@ public class HomePage_2 extends Fragment implements BaseSliderView.OnSliderClick
                     .replace(R.id.main_fragment, fragment)
                     .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE)
                     .addToBackStack(getString(R.string.actionHome)).commit();
-            
+
         }
-        
+
     }
     
 }

@@ -119,7 +119,7 @@ public class SplashScreen extends Activity {
             ConstantValues.IS_GUEST_CHECKOUT_ENABLED = ("yes".equalsIgnoreCase(appSettings.getGuestCheckout()));
             ConstantValues.IS_ONE_PAGE_CHECKOUT_ENABLED = ("1".equalsIgnoreCase(appSettings.getOnePageCheckout()));
             
-            ConstantValues.IS_GOOGLE_LOGIN_ENABLED = ("1".equalsIgnoreCase(appSettings.getGoogleLogin()));
+            //ConstantValues.IS_GOOGLE_LOGIN_ENABLED = ("1".equalsIgnoreCase(appSettings.getGoogleLogin()));
            // ConstantValues.IS_FACEBOOK_LOGIN_ENABLED = ("1".equalsIgnoreCase(appSettings.getFacebookLogin()));
             ConstantValues.IS_ADD_TO_CART_BUTTON_ENABLED = ("1".equalsIgnoreCase(appSettings.getCartButton()));
             

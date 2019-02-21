@@ -32,12 +32,12 @@
         "source": "E:\\STILLFORCE LTD\\market place\\woocommerce\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_grid_staggered.png"
     },
     {
-        "merged": "E:\\STILLFORCE LTD\\market place\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_lines_media.xml.flat",
-        "source": "C:\\Users\\Ngassam\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-28.0.0.aar\\6257da08dd88d3cb3ffef7f1746f78bb\\res\\layout\\notification_template_lines_media.xml"
-    },
-    {
         "merged": "E:\\STILLFORCE LTD\\market place\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ic_arrow_down_24dp.png.flat",
         "source": "C:\\Users\\Ngassam\\.gradle\\caches\\transforms-1\\files-1.1\\preference-v7-28.0.0.aar\\5c26e5b281ea3a4493b65f36d54df96f\\res\\drawable-xhdpi-v4\\ic_arrow_down_24dp.png"
+    },
+    {
+        "merged": "E:\\STILLFORCE LTD\\market place\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_lines_media.xml.flat",
+        "source": "C:\\Users\\Ngassam\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-28.0.0.aar\\6257da08dd88d3cb3ffef7f1746f78bb\\res\\layout\\notification_template_lines_media.xml"
     },
     {
         "merged": "E:\\STILLFORCE LTD\\market place\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
@@ -52,12 +52,12 @@
         "source": "C:\\Users\\Ngassam\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9cc8b9abb644e0ac8d4e38cfff0e3645\\res\\color\\abc_tint_edittext.xml"
     },
     {
-        "merged": "E:\\STILLFORCE LTD\\market place\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_grouped_products.xml.flat",
-        "source": "E:\\STILLFORCE LTD\\market place\\woocommerce\\app\\src\\main\\res\\layout\\layout_grouped_products.xml"
-    },
-    {
         "merged": "E:\\STILLFORCE LTD\\market place\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_lock.png.flat",
         "source": "E:\\STILLFORCE LTD\\market place\\woocommerce\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_lock.png"
+    },
+    {
+        "merged": "E:\\STILLFORCE LTD\\market place\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_grouped_products.xml.flat",
+        "source": "E:\\STILLFORCE LTD\\market place\\woocommerce\\app\\src\\main\\res\\layout\\layout_grouped_products.xml"
     },
     {
         "merged": "E:\\STILLFORCE LTD\\market place\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\layout_preference_widget_seekbar.xml.flat",
@@ -68,12 +68,12 @@
         "source": "C:\\Users\\Ngassam\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9cc8b9abb644e0ac8d4e38cfff0e3645\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_48dp.png"
     },
     {
-        "merged": "E:\\STILLFORCE LTD\\market place\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\drawable_checked.png.flat",
-        "source": "E:\\STILLFORCE LTD\\market place\\woocommerce\\app\\src\\main\\res\\drawable\\checked.png"
-    },
-    {
         "merged": "E:\\STILLFORCE LTD\\market place\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\Ngassam\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9cc8b9abb644e0ac8d4e38cfff0e3645\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\STILLFORCE LTD\\market place\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\drawable_checked.png.flat",
+        "source": "E:\\STILLFORCE LTD\\market place\\woocommerce\\app\\src\\main\\res\\drawable\\checked.png"
     },
     {
         "merged": "E:\\STILLFORCE LTD\\market place\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_phone_android.png.flat",
@@ -112,32 +112,32 @@
         "source": "E:\\STILLFORCE LTD\\market place\\woocommerce\\app\\src\\main\\res\\drawable-hdpi\\ic_filter_remove_white.xml"
     },
     {
-        "merged": "E:\\STILLFORCE LTD\\market place\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rounded_corners_button_gray.xml.flat",
-        "source": "E:\\STILLFORCE LTD\\market place\\woocommerce\\app\\src\\main\\res\\drawable\\rounded_corners_button_gray.xml"
-    },
-    {
         "merged": "E:\\STILLFORCE LTD\\market place\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
         "source": "C:\\Users\\Ngassam\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\a4a086ef97fb447df2c761e764d85380\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
+    },
+    {
+        "merged": "E:\\STILLFORCE LTD\\market place\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rounded_corners_button_gray.xml.flat",
+        "source": "E:\\STILLFORCE LTD\\market place\\woocommerce\\app\\src\\main\\res\\drawable\\rounded_corners_button_gray.xml"
     },
     {
         "merged": "E:\\STILLFORCE LTD\\market place\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_textfield_search_material.xml.flat",
         "source": "C:\\Users\\Ngassam\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9cc8b9abb644e0ac8d4e38cfff0e3645\\res\\drawable\\abc_textfield_search_material.xml"
     },
     {
-        "merged": "E:\\STILLFORCE LTD\\market place\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\layout_homepage_4.xml.flat",
-        "source": "E:\\STILLFORCE LTD\\market place\\woocommerce\\app\\src\\main\\res\\layout\\homepage_4.xml"
-    },
-    {
         "merged": "E:\\STILLFORCE LTD\\market place\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_cross.png.flat",
         "source": "E:\\STILLFORCE LTD\\market place\\woocommerce\\app\\src\\main\\res\\drawable-hdpi\\ic_cross.png"
     },
     {
-        "merged": "E:\\STILLFORCE LTD\\market place\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_star_circle.png.flat",
-        "source": "E:\\STILLFORCE LTD\\market place\\woocommerce\\app\\src\\main\\res\\drawable-xhdpi\\ic_star_circle.png"
+        "merged": "E:\\STILLFORCE LTD\\market place\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\layout_homepage_4.xml.flat",
+        "source": "E:\\STILLFORCE LTD\\market place\\woocommerce\\app\\src\\main\\res\\layout\\homepage_4.xml"
     },
     {
         "merged": "E:\\STILLFORCE LTD\\market place\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\drawable_com_facebook_auth_dialog_cancel_background.xml.flat",
         "source": "C:\\Users\\Ngassam\\.gradle\\caches\\transforms-1\\files-1.1\\facebook-common-4.40.0.aar\\0f4adf5e071d4f1bf8d81621440675ba\\res\\drawable\\com_facebook_auth_dialog_cancel_background.xml"
+    },
+    {
+        "merged": "E:\\STILLFORCE LTD\\market place\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_star_circle.png.flat",
+        "source": "E:\\STILLFORCE LTD\\market place\\woocommerce\\app\\src\\main\\res\\drawable-xhdpi\\ic_star_circle.png"
     },
     {
         "merged": "E:\\STILLFORCE LTD\\market place\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
@@ -200,20 +200,20 @@
         "source": "C:\\Users\\Ngassam\\.gradle\\caches\\transforms-1\\files-1.1\\drop-in-3.7.1.aar\\ad1d45553c380a5d09ba47ae6586de0c\\res\\layout\\bt_section_divider.xml"
     },
     {
-        "merged": "E:\\STILLFORCE LTD\\market place\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_bt_ic_vaulted_mastercard.png.flat",
-        "source": "C:\\Users\\Ngassam\\.gradle\\caches\\transforms-1\\files-1.1\\drop-in-3.7.1.aar\\ad1d45553c380a5d09ba47ae6586de0c\\res\\drawable-xxhdpi-v4\\bt_ic_vaulted_mastercard.png"
-    },
-    {
         "merged": "E:\\STILLFORCE LTD\\market place\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_grid_staggered.png.flat",
         "source": "E:\\STILLFORCE LTD\\market place\\woocommerce\\app\\src\\main\\res\\drawable-mdpi\\ic_grid_staggered.png"
     },
     {
-        "merged": "E:\\STILLFORCE LTD\\market place\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
-        "source": "C:\\Users\\Ngassam\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9cc8b9abb644e0ac8d4e38cfff0e3645\\res\\drawable-hdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
+        "merged": "E:\\STILLFORCE LTD\\market place\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_bt_ic_vaulted_mastercard.png.flat",
+        "source": "C:\\Users\\Ngassam\\.gradle\\caches\\transforms-1\\files-1.1\\drop-in-3.7.1.aar\\ad1d45553c380a5d09ba47ae6586de0c\\res\\drawable-xxhdpi-v4\\bt_ic_vaulted_mastercard.png"
     },
     {
         "merged": "E:\\STILLFORCE LTD\\market place\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_layout_snackbar_include.xml.flat",
         "source": "C:\\Users\\Ngassam\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\a0a5040ac9b13765f95966090cd8687f\\res\\layout\\mtrl_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "E:\\STILLFORCE LTD\\market place\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\Ngassam\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9cc8b9abb644e0ac8d4e38cfff0e3645\\res\\drawable-hdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
         "merged": "E:\\STILLFORCE LTD\\market place\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_meta_data_attributes.xml.flat",
@@ -264,12 +264,12 @@
         "source": "C:\\Users\\Ngassam\\.gradle\\caches\\transforms-1\\files-1.1\\card-form-3.5.0.aar\\2ec0117b3c08ef2e266cb4178923efb3\\res\\drawable-hdpi-v4\\bt_ic_card.png"
     },
     {
-        "merged": "E:\\STILLFORCE LTD\\market place\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_bt_ic_vaulted_amex.png.flat",
-        "source": "C:\\Users\\Ngassam\\.gradle\\caches\\transforms-1\\files-1.1\\drop-in-3.7.1.aar\\ad1d45553c380a5d09ba47ae6586de0c\\res\\drawable-hdpi-v4\\bt_ic_vaulted_amex.png"
-    },
-    {
         "merged": "E:\\STILLFORCE LTD\\market place\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\anim_bt_expiration_date_dialog_close.xml.flat",
         "source": "C:\\Users\\Ngassam\\.gradle\\caches\\transforms-1\\files-1.1\\card-form-3.5.0.aar\\2ec0117b3c08ef2e266cb4178923efb3\\res\\anim\\bt_expiration_date_dialog_close.xml"
+    },
+    {
+        "merged": "E:\\STILLFORCE LTD\\market place\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_bt_ic_vaulted_amex.png.flat",
+        "source": "C:\\Users\\Ngassam\\.gradle\\caches\\transforms-1\\files-1.1\\drop-in-3.7.1.aar\\ad1d45553c380a5d09ba47ae6586de0c\\res\\drawable-hdpi-v4\\bt_ic_vaulted_amex.png"
     },
     {
         "merged": "E:\\STILLFORCE LTD\\market place\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_com_facebook_tooltip_blue_bottomnub.png.flat",
