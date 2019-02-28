@@ -38,18 +38,18 @@ import retrofit2.Call;
 import retrofit2.Callback;
 
 
-public class ContactUs extends Fragment implements OnMapReadyCallback {
+public class  ContactUs extends Fragment implements OnMapReadyCallback {
 
     View rootView;
     DialogLoader dialogLoader;
     Button btn_contact_us;
     EditText ed_name, ed_email, ed_message;
-    TextView tv_address, tv_email, tv_telephone;
+    TextView tv_address, tv_telephone;
     CoordinatorLayout coordinator_container;
     private GoogleMap mGoogleMap;
     private AppSettingsDetails appSettings;
-    
-    
+
+
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -61,21 +61,21 @@ public class ContactUs extends Fragment implements OnMapReadyCallback {
 
         // Get AppSettingsDetails from ApplicationContext
         appSettings = ((App) getContext().getApplicationContext()).getAppSettingsDetails();
-        
+
         // Binding Layout Views
         btn_contact_us = (Button) rootView.findViewById(R.id.btn_contact_us);
         ed_name = (EditText) rootView.findViewById(R.id.ed_name);
         ed_email = (EditText) rootView.findViewById(R.id.ed_email);
         ed_message = (EditText) rootView.findViewById(R.id.ed_message);
         tv_address = (TextView) rootView.findViewById(R.id.tv_address);
-        tv_email = (TextView) rootView.findViewById(R.id.tv_email);
+        //tv_email = (TextView) rootView.findViewById(R.id.tv_email);
         tv_telephone = (TextView) rootView.findViewById(R.id.tv_telephone);
         coordinator_container = (CoordinatorLayout) rootView.findViewById(R.id.coordinator_container);
 
         dialogLoader = new DialogLoader(getContext());
-        
+
         tv_address.setText(appSettings.getAddress());
-        tv_email.setText(appSettings.getContactUsEmail());
+        //tv_email.setText(appSettings.getContactUsEmail());
         tv_telephone.setText(appSettings.getPhoneNo());
 
 
@@ -104,13 +104,13 @@ public class ContactUs extends Fragment implements OnMapReadyCallback {
 
         return rootView;
     }
-    
+
     //*********** Called after onCreateView() has returned, but before any saved state has been restored in to the view ********//
-    
+
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        
+
         CustomScrollMapFragment mapFragment = ((CustomScrollMapFragment) getChildFragmentManager().findFragmentByTag("mapFragment"));
         if (mapFragment == null) {
             mapFragment = new CustomScrollMapFragment();
@@ -120,7 +120,7 @@ public class ContactUs extends Fragment implements OnMapReadyCallback {
             getChildFragmentManager().executePendingTransactions();
         }
         mapFragment.getMapAsync(this);
-        
+
         mapFragment.setListener(new CustomScrollMapFragment.OnTouchListener() {
             @Override
             public void onTouch() {
@@ -128,10 +128,10 @@ public class ContactUs extends Fragment implements OnMapReadyCallback {
             }
         });
     }
-    
-    
+
+
     //*********** Triggered when the Map is ready to be used ********//
-    
+
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mGoogleMap = googleMap;
@@ -142,24 +142,24 @@ public class ContactUs extends Fragment implements OnMapReadyCallback {
         mGoogleMap.setBuildingsEnabled(true);
         mGoogleMap.getUiSettings().setZoomControlsEnabled(true);
         mGoogleMap.getUiSettings().setZoomGesturesEnabled(true);
-    
+
         double latitude = 0;
         double longitude = 0;
-        
+
         if (appSettings != null  && appSettings.getLatitude() != null)
             if (!TextUtils.isEmpty(appSettings.getLatitude()))
                 latitude = Double.parseDouble(appSettings.getLatitude());
-        
+
         if (appSettings != null  && appSettings.getLongitude() != null)
             if (!TextUtils.isEmpty(appSettings.getLongitude()))
                 longitude = Double.parseDouble(appSettings.getLongitude());
 
-        
+
         drawMarker(latitude, longitude);
     }
-    
+
     //*********** Draws location marker on given location ********//
-    
+
     private void drawMarker(double latitude, double longitude) {
         mGoogleMap.clear();
 
@@ -183,15 +183,15 @@ public class ContactUs extends Fragment implements OnMapReadyCallback {
     public void ContactWithUs() {
 
         dialogLoader.showProgressDialog();
-    
+
         Map<String, String> params = new LinkedHashMap<>();
         params.put("insecure", "cool");
         params.put("name", ed_name.getText().toString().trim());
         params.put("email", ed_email.getText().toString().trim());
         params.put("message", ed_message.getText().toString().trim());
-     
 
-        
+
+
         Call<ContactUsData> call = APIClient.getInstance()
                 .contactUs
                         (
@@ -201,9 +201,9 @@ public class ContactUs extends Fragment implements OnMapReadyCallback {
         call.enqueue(new Callback<ContactUsData>() {
             @Override
             public void onResponse(Call<ContactUsData> call, retrofit2.Response<ContactUsData> response) {
-    
+
                 dialogLoader.hideProgressDialog();
-                
+
                 if (response.isSuccessful()) {
                     if ("ok".equalsIgnoreCase(response.body().getStatus())) {
 
@@ -212,7 +212,7 @@ public class ContactUs extends Fragment implements OnMapReadyCallback {
                     }
                     else if ("error".equalsIgnoreCase(response.body().getStatus())) {
                         Snackbar.make(rootView, response.body().getError(), Snackbar.LENGTH_LONG).show();
-    
+
                     }
                     else {
                         // Unable to get Success status

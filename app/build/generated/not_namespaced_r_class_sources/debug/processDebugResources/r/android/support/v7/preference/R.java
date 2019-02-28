@@ -814,9 +814,9 @@ public final class R {
         public static final int title_template = 0x7f090289;
         public static final int top = 0x7f09028d;
         public static final int topPanel = 0x7f09028e;
-        public static final int uniform = 0x7f09029a;
-        public static final int up = 0x7f09029d;
-        public static final int wrap_content = 0x7f0902af;
+        public static final int uniform = 0x7f090299;
+        public static final int up = 0x7f09029c;
+        public static final int wrap_content = 0x7f0902ae;
     }
     public static final class integer {
         private integer() {}
@@ -929,11 +929,11 @@ public final class R {
         public static final int abc_shareactionprovider_share_with_application = 0x7f100029;
         public static final int abc_toolbar_collapse_description = 0x7f10002a;
         public static final int expand_button_title = 0x7f1000fd;
-        public static final int search_menu_title = 0x7f100182;
-        public static final int status_bar_notification_info_overflow = 0x7f10019b;
-        public static final int summary_collapsed_preference_list = 0x7f10019d;
-        public static final int v7_preference_off = 0x7f1001a8;
-        public static final int v7_preference_on = 0x7f1001a9;
+        public static final int search_menu_title = 0x7f100184;
+        public static final int status_bar_notification_info_overflow = 0x7f10019d;
+        public static final int summary_collapsed_preference_list = 0x7f10019f;
+        public static final int v7_preference_off = 0x7f1001aa;
+        public static final int v7_preference_on = 0x7f1001ab;
     }
     public static final class style {
         private style() {}

@@ -713,10 +713,10 @@ public final class R {
         public static final int titleDividerNoCustom = 0x7f090288;
         public static final int title_template = 0x7f090289;
         public static final int topPanel = 0x7f09028e;
-        public static final int uniform = 0x7f09029a;
-        public static final int up = 0x7f09029d;
-        public static final int view_pager = 0x7f0902ab;
-        public static final int wrap_content = 0x7f0902af;
+        public static final int uniform = 0x7f090299;
+        public static final int up = 0x7f09029c;
+        public static final int view_pager = 0x7f0902aa;
+        public static final int wrap_content = 0x7f0902ae;
     }
     public static final class integer {
         private integer() {}
@@ -819,8 +819,8 @@ public final class R {
         public static final int library_appintro_libraryWebsite = 0x7f100132;
         public static final int library_appintro_licenseId = 0x7f100133;
         public static final int library_appintro_repositoryLink = 0x7f100134;
-        public static final int search_menu_title = 0x7f100182;
-        public static final int status_bar_notification_info_overflow = 0x7f10019b;
+        public static final int search_menu_title = 0x7f100184;
+        public static final int status_bar_notification_info_overflow = 0x7f10019d;
     }
     public static final class style {
         private style() {}

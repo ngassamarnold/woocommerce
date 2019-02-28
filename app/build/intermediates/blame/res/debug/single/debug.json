@@ -4,12 +4,12 @@
         "source": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\src\\main\\res\\drawable-mdpi\\ic_call.png"
     },
     {
-        "merged": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_menu_item_layout.xml.flat",
-        "source": "C:\\Users\\yalaetyves\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\dcc3a1dfc5a3bc3baff8e6240e79cefa\\res\\layout\\abc_action_menu_item_layout.xml"
-    },
-    {
         "merged": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_remove_circle.png.flat",
         "source": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\src\\main\\res\\drawable-hdpi\\ic_remove_circle.png"
+    },
+    {
+        "merged": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_menu_item_layout.xml.flat",
+        "source": "C:\\Users\\yalaetyves\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\dcc3a1dfc5a3bc3baff8e6240e79cefa\\res\\layout\\abc_action_menu_item_layout.xml"
     },
     {
         "merged": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_person.png.flat",
@@ -56,12 +56,12 @@
         "source": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\src\\main\\res\\drawable-hdpi\\ic_filter_remove.png"
     },
     {
-        "merged": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_phone_android.png.flat",
-        "source": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\src\\main\\res\\drawable-xxhdpi\\ic_phone_android.png"
-    },
-    {
         "merged": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\layout-v17_preference_category_material.xml.flat",
         "source": "C:\\Users\\yalaetyves\\.gradle\\caches\\transforms-1\\files-1.1\\preference-v7-28.0.0.aar\\5d1d7bf433717700300bca40555c4c05\\res\\layout-v17\\preference_category_material.xml"
+    },
+    {
+        "merged": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_phone_android.png.flat",
+        "source": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\src\\main\\res\\drawable-xxhdpi\\ic_phone_android.png"
     },
     {
         "merged": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_messenger_button_send_round_shadow.png.flat",
@@ -144,20 +144,20 @@
         "source": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\src\\main\\res\\drawable-xhdpi\\ic_chevron_down.png"
     },
     {
-        "merged": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_selector_holo_light.xml.flat",
-        "source": "C:\\Users\\yalaetyves\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\dcc3a1dfc5a3bc3baff8e6240e79cefa\\res\\drawable\\abc_list_selector_holo_light.xml"
-    },
-    {
         "merged": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_share.png.flat",
         "source": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\src\\main\\res\\drawable-xxhdpi\\ic_share.png"
     },
     {
-        "merged": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_phone_android.png.flat",
-        "source": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_phone_android.png"
+        "merged": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_selector_holo_light.xml.flat",
+        "source": "C:\\Users\\yalaetyves\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\dcc3a1dfc5a3bc3baff8e6240e79cefa\\res\\drawable\\abc_list_selector_holo_light.xml"
     },
     {
         "merged": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
         "source": "C:\\Users\\yalaetyves\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\dcc3a1dfc5a3bc3baff8e6240e79cefa\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_phone_android.png.flat",
+        "source": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_phone_android.png"
     },
     {
         "merged": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_text_dark_normal.xml.flat",
@@ -204,12 +204,12 @@
         "source": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\src\\main\\res\\drawable-xhdpi\\splash.png"
     },
     {
-        "merged": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_rounded_corners_button_red.xml.flat",
-        "source": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\src\\main\\res\\drawable-hdpi\\rounded_corners_button_red.xml"
-    },
-    {
         "merged": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\yalaetyves\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\dcc3a1dfc5a3bc3baff8e6240e79cefa\\res\\drawable-xhdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_rounded_corners_button_red.xml.flat",
+        "source": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\src\\main\\res\\drawable-hdpi\\rounded_corners_button_red.xml"
     },
     {
         "merged": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_selector_holo_dark.xml.flat",
@@ -228,20 +228,20 @@
         "source": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\src\\main\\res\\drawable\\map_marker.png"
     },
     {
-        "merged": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_search_menu.png.flat",
-        "source": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\src\\main\\res\\drawable-mdpi\\ic_search_menu.png"
-    },
-    {
         "merged": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_search.png.flat",
         "source": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\src\\main\\res\\drawable-hdpi\\ic_search.png"
     },
     {
-        "merged": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
-        "source": "C:\\Users\\yalaetyves\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\dcc3a1dfc5a3bc3baff8e6240e79cefa\\res\\drawable-mdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+        "merged": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_search_menu.png.flat",
+        "source": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\src\\main\\res\\drawable-mdpi\\ic_search_menu.png"
     },
     {
         "merged": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_meta_data.xml.flat",
         "source": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\src\\main\\res\\layout\\layout_meta_data.xml"
+    },
+    {
+        "merged": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
+        "source": "C:\\Users\\yalaetyves\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\dcc3a1dfc5a3bc3baff8e6240e79cefa\\res\\drawable-mdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
         "merged": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
@@ -276,32 +276,32 @@
         "source": "C:\\Users\\yalaetyves\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\dcc3a1dfc5a3bc3baff8e6240e79cefa\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
     },
     {
-        "merged": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\color_switch_thumb_material_dark.xml.flat",
-        "source": "C:\\Users\\yalaetyves\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\dcc3a1dfc5a3bc3baff8e6240e79cefa\\res\\color\\switch_thumb_material_dark.xml"
-    },
-    {
         "merged": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\layout_com_facebook_device_auth_dialog_fragment.xml.flat",
         "source": "C:\\Users\\yalaetyves\\.gradle\\caches\\transforms-1\\files-1.1\\facebook-common-4.40.0.aar\\154712c807d58534f77cc2a97eabead2\\res\\layout\\com_facebook_device_auth_dialog_fragment.xml"
     },
     {
-        "merged": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
-        "source": "C:\\Users\\yalaetyves\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\dcc3a1dfc5a3bc3baff8e6240e79cefa\\res\\drawable-xhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
-    },
-    {
-        "merged": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_bt_ic_android_pay.png.flat",
-        "source": "C:\\Users\\yalaetyves\\.gradle\\caches\\transforms-1\\files-1.1\\drop-in-3.7.1.aar\\b13f406652f3faefa989045e178d84cc\\res\\drawable-xxhdpi-v4\\bt_ic_android_pay.png"
+        "merged": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\color_switch_thumb_material_dark.xml.flat",
+        "source": "C:\\Users\\yalaetyves\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\dcc3a1dfc5a3bc3baff8e6240e79cefa\\res\\color\\switch_thumb_material_dark.xml"
     },
     {
         "merged": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\layout_bt_edit_card.xml.flat",
         "source": "C:\\Users\\yalaetyves\\.gradle\\caches\\transforms-1\\files-1.1\\drop-in-3.7.1.aar\\b13f406652f3faefa989045e178d84cc\\res\\layout\\bt_edit_card.xml"
     },
     {
-        "merged": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_directions.png.flat",
-        "source": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\src\\main\\res\\drawable-mdpi\\ic_directions.png"
+        "merged": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_bt_ic_android_pay.png.flat",
+        "source": "C:\\Users\\yalaetyves\\.gradle\\caches\\transforms-1\\files-1.1\\drop-in-3.7.1.aar\\b13f406652f3faefa989045e178d84cc\\res\\drawable-xxhdpi-v4\\bt_ic_android_pay.png"
+    },
+    {
+        "merged": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "C:\\Users\\yalaetyves\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\dcc3a1dfc5a3bc3baff8e6240e79cefa\\res\\drawable-xhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
         "merged": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_list.xml.flat",
         "source": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\src\\main\\res\\layout\\dialog_list.xml"
+    },
+    {
+        "merged": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_directions.png.flat",
+        "source": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\src\\main\\res\\drawable-mdpi\\ic_directions.png"
     },
     {
         "merged": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
@@ -328,16 +328,16 @@
         "source": "C:\\Users\\yalaetyves\\.gradle\\caches\\transforms-1\\files-1.1\\card-form-3.5.0.aar\\21e3f41d6ddd1f1e0ba53149a1f0a17e\\res\\drawable-xxhdpi-v4\\bt_ic_cardholder_name_dark.png"
     },
     {
-        "merged": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_bt_ic_sms_code.png.flat",
-        "source": "C:\\Users\\yalaetyves\\.gradle\\caches\\transforms-1\\files-1.1\\drop-in-3.7.1.aar\\b13f406652f3faefa989045e178d84cc\\res\\drawable-hdpi-v4\\bt_ic_sms_code.png"
+        "merged": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_chevron_left.png.flat",
+        "source": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\src\\main\\res\\drawable-hdpi\\ic_chevron_left.png"
     },
     {
         "merged": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_cio_card_io_logo.png.flat",
         "source": "C:\\Users\\yalaetyves\\.gradle\\caches\\transforms-1\\files-1.1\\android-sdk-5.5.1.aar\\a6a6e79cfd389f2d3a847b6d4fc87863\\res\\drawable-mdpi-v4\\cio_card_io_logo.png"
     },
     {
-        "merged": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_chevron_left.png.flat",
-        "source": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\src\\main\\res\\drawable-hdpi\\ic_chevron_left.png"
+        "merged": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_bt_ic_sms_code.png.flat",
+        "source": "C:\\Users\\yalaetyves\\.gradle\\caches\\transforms-1\\files-1.1\\drop-in-3.7.1.aar\\b13f406652f3faefa989045e178d84cc\\res\\drawable-hdpi-v4\\bt_ic_sms_code.png"
     },
     {
         "merged": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
@@ -1286,6 +1286,10 @@
     {
         "merged": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
         "source": "C:\\Users\\yalaetyves\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\9fc9c0d7773b1d0ff0d5f53f0cc457d5\\res\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_add_location.xml.flat",
+        "source": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_add_location.xml"
     },
     {
         "merged": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_dialog_material_background.xml.flat",
@@ -4714,6 +4718,10 @@
     {
         "merged": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_logout.png.flat",
         "source": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\src\\main\\res\\drawable-hdpi\\ic_logout.png"
+    },
+    {
+        "merged": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_add_location.png.flat",
+        "source": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_add_location.png"
     },
     {
         "merged": "C:\\JONATHAN\\PROJET\\woocommerce\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_com_facebook_tooltip_blue_topnub.png.flat",

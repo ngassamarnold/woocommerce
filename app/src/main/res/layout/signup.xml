@@ -225,9 +225,9 @@
                     android:layout_marginTop="@dimen/button_margin"
                     android:text="@string/register"
                     android:textAllCaps="false"
-                    android:textColor="@color/white"
+                    android:textColor="@color/black"
                     android:textSize="@dimen/button_text_size"
-                    app:backgroundTint="@color/colorAccentGreen"
+                    app:backgroundTint="@color/colorAccent"
                     android:background="@drawable/rounded_corners_button" />
 
             </LinearLayout>

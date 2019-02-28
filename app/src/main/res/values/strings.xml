@@ -1,17 +1,21 @@
 <resources>
 
     <!--  App Information -->
-    <string name="app_name" translatable="false"> Yello Mark </string>
+    <string name="app_name" translatable="false"> YELLO MARK </string>
 
 
     <!--  Facebook App Key -->
-    <string name="facebook_app_id" translatable="false"> 294242604594730 </string>
+    <string name="facebook_app_id" translatable="false"> 393589218111183 </string>
 
     <!--  Google App Key -->
-    <string name="google_api_app_id" translatable="false">AIzaSyC3iZeNwsNoOajKQ4-GqiyysfZ5DRm-GIE</string>
+    <string name="google_api_app_id" translatable="false"> AIzaSyAqunOqRSw34sshDn9qxhZuCTntN_O1__Y </string>
 
     <!--AddMod AppID-->
-    <string name="addmob_AppID" translatable="false">ca-app-pub-4302071774857897~9618655719 </string>
+    <string name="addmob_AppID" translatable="false"> ca-app-pub-4302071774857897~9618655719 </string>
+
+    <!--lien d'invitation-->
+    <string name="lien_invitation" translatable="false"> https://play.google.com/store/apps/details?id= </string>
+
 
 
     <!--  Main Strings -->
@@ -283,6 +287,8 @@
 
     <string name="push_notification"> Push Notifications </string>
     <string name="local_notification"> Local Notifications </string>
+    <string name="message_invitation"> Hello!!!  yellomark your online store click on the link to join us! </string>
+
 
 
     <string name="app_terms_services">

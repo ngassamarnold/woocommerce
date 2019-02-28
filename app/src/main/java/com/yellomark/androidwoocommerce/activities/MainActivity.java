@@ -158,6 +158,16 @@ public class MainActivity extends AppCompatActivity {
         actionBar.setTitle(ConstantValues.APP_HEADER);
         actionBar.setHomeButtonEnabled(true);
         actionBar.setDisplayHomeAsUpEnabled(true);
+
+        Fragment fragment;
+        FragmentManager fragmentManager = getSupportFragmentManager();
+
+        // Navigate to any selected HomePage Fragment
+        fragment = new HomePage_1();
+        fragmentManager.beginTransaction()
+                .replace(R.id.main_fragment, fragment)
+                .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN)
+                .commit();
         
         
         appSettings = ((App) getApplicationContext()).getAppSettingsDetails();
@@ -334,12 +344,17 @@ public class MainActivity extends AppCompatActivity {
         
         
         if (appSettings != null) {
-            
+
             listDataHeader.add(new Drawer_Items(R.drawable.ic_home, getString(R.string.actionHome)));
             listDataHeader.add(new Drawer_Items(R.drawable.ic_categories, getString(R.string.actionCategories)));
             listDataHeader.add(new Drawer_Items(R.drawable.ic_cart, getString(R.string.actionShop)));
 
             listDataHeader.add(new Drawer_Items(R.drawable.ic_favorite, getString(R.string.actionFavourites)));
+            listDataHeader.add(new Drawer_Items(R.drawable.ic_share, getString(R.string.actionShareApp)));
+            listDataHeader.add(new Drawer_Items(R.drawable.ic_chat_bubble, getString(R.string.actionContactUs)));
+            listDataHeader.add(new Drawer_Items(R.drawable.ic_info, getString(R.string.actionAbout)));
+            listDataHeader.add(new Drawer_Items(R.drawable.ic_settings, getString(R.string.actionSettings)));
+            listDataHeader.add(new Drawer_Items(R.drawable.ic_star_circle, getString(R.string.actionRateApp)));
 
 
             if ("1".equalsIgnoreCase(appSettings.getEditProfilePage()))
@@ -377,15 +392,14 @@ public class MainActivity extends AppCompatActivity {
             } else {
                 listDataHeader.add(new Drawer_Items(R.drawable.ic_logout, getString(R.string.actionLogin)));
             }
-            
-            
-            if (!ConstantValues.IS_CLIENT_ACTIVE) {
-                List<Drawer_Items> home_styles = new ArrayList<>();
+
+            //if (!ConstantValues.IS_CLIENT_ACTIVE) {
+                /*List<Drawer_Items> home_styles = new ArrayList<>();
                 home_styles.add(new Drawer_Items(R.drawable.ic_home, getString(R.string.homeStyle1)));
                 home_styles.add(new Drawer_Items(R.drawable.ic_home, getString(R.string.homeStyle2)));
                 home_styles.add(new Drawer_Items(R.drawable.ic_home, getString(R.string.homeStyle3)));
                 home_styles.add(new Drawer_Items(R.drawable.ic_home, getString(R.string.homeStyle4)));
-                home_styles.add(new Drawer_Items(R.drawable.ic_home, getString(R.string.homeStyle5)));
+                home_styles.add(new Drawer_Items(R.drawable.ic_home, getString(R.string.homeStyle5)));*/
                 
                 List<Drawer_Items> category_styles = new ArrayList<>();
                 category_styles.add(new Drawer_Items(R.drawable.ic_categories, getString(R.string.categoryStyle1)));
@@ -402,10 +416,10 @@ public class MainActivity extends AppCompatActivity {
                 
                 
                 // Add Child to selective Headers
-                listDataChild.put(listDataHeader.get(0), home_styles);
+                //listDataChild.put(listDataHeader.get(0), home_styles);
                 listDataChild.put(listDataHeader.get(1), category_styles);
                 listDataChild.put(listDataHeader.get(2), shop_childs);
-            }
+          //  }
             
             
         }
@@ -604,6 +618,8 @@ public class MainActivity extends AppCompatActivity {
         
         if(selectedItem.equalsIgnoreCase(getString(R.string.actionHome))) {
             mSelectedItem = selectedItem;
+            Bundle bundle = new Bundle();
+            bundle.putBoolean("isHeaderVisible", false);
             
             // Navigate to any selected HomePage Fragment
             fragment = new HomePage_1();
@@ -611,11 +627,13 @@ public class MainActivity extends AppCompatActivity {
                     .replace(R.id.main_fragment, fragment)
                     .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN)
                     .commit();
+
+
             
             drawerLayout.closeDrawers();
             
         }
-        else if(selectedItem.equalsIgnoreCase(getString(R.string.homeStyle1))) {
+        /*else if(selectedItem.equalsIgnoreCase(getString(R.string.homeStyle1))) {
             mSelectedItem = selectedItem;
             
             // Navigate to HomePage1 Fragment
@@ -679,7 +697,7 @@ public class MainActivity extends AppCompatActivity {
             
             drawerLayout.closeDrawers();
             
-        }
+        }*/
         else if(selectedItem.equalsIgnoreCase(getString(R.string.actionCategories))) {
             mSelectedItem = selectedItem;
             
@@ -687,7 +705,7 @@ public class MainActivity extends AppCompatActivity {
             bundle.putBoolean("isHeaderVisible", false);
             
             // Navigate to any selected CategoryPage Fragment
-            fragment = new Categories_1();
+            fragment = new HomePage_1();
             fragment.setArguments(bundle);
             fragmentManager.beginTransaction()
                     .replace(R.id.main_fragment, fragment)
@@ -1005,7 +1023,7 @@ public class MainActivity extends AppCompatActivity {
             
             // Rate App with the help of static method of Utilities class
             Utilities.rateMyApp(MainActivity.this);
-            
+
             drawerLayout.closeDrawers();
             
         }

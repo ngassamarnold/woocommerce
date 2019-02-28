@@ -18,8 +18,8 @@
         android:text="@string/continue_guest"
         android:textAllCaps="false"
         android:textSize="18sp"
-        android:textColor="@color/white"
-        android:background="@color/colorAccentGreen"
+        android:textColor="@color/black"
+        android:background="@color/colorAccent"
         android:layout_alignParentBottom="true"/>
 
     <ScrollView
@@ -94,9 +94,9 @@
                     android:background="@drawable/rounded_corners_button"
                     android:text="@string/login"
                     android:textAllCaps="false"
-                    android:textColor="@color/white"
+                    android:textColor="@color/black"
                     android:textSize="@dimen/button_text_size"
-                    app:backgroundTint="@color/colorAccentGreen"/>
+                    app:backgroundTint="@color/colorPrimary"/>
 
                 <TextView
                     android:id="@+id/forgot_password_text"

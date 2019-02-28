@@ -628,10 +628,10 @@ public final class R {
         public static final int title_template = 0x7f090289;
         public static final int top = 0x7f09028d;
         public static final int topPanel = 0x7f09028e;
-        public static final int up = 0x7f09029d;
-        public static final int useLogo = 0x7f0902a0;
-        public static final int withText = 0x7f0902ae;
-        public static final int wrap_content = 0x7f0902af;
+        public static final int up = 0x7f09029c;
+        public static final int useLogo = 0x7f09029f;
+        public static final int withText = 0x7f0902ad;
+        public static final int wrap_content = 0x7f0902ae;
     }
     public static final class integer {
         private integer() {}
@@ -714,7 +714,7 @@ public final class R {
         public static final int abc_shareactionprovider_share_with_application = 0x7f100029;
         public static final int abc_toolbar_collapse_description = 0x7f10002a;
         public static final int app_name = 0x7f10004f;
-        public static final int status_bar_notification_info_overflow = 0x7f10019b;
+        public static final int status_bar_notification_info_overflow = 0x7f10019d;
     }
     public static final class style {
         private style() {}

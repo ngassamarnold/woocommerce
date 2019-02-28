@@ -807,10 +807,10 @@ public final class R {
         public static final int title_template = 0x7f090289;
         public static final int top = 0x7f09028d;
         public static final int topPanel = 0x7f09028e;
-        public static final int uniform = 0x7f09029a;
-        public static final int unknown = 0x7f09029b;
-        public static final int up = 0x7f09029d;
-        public static final int wrap_content = 0x7f0902af;
+        public static final int uniform = 0x7f090299;
+        public static final int unknown = 0x7f09029a;
+        public static final int up = 0x7f09029c;
+        public static final int wrap_content = 0x7f0902ae;
     }
     public static final class integer {
         private integer() {}
@@ -930,8 +930,8 @@ public final class R {
         public static final int com_facebook_smart_login_confirmation_continue_as = 0x7f1000be;
         public static final int com_facebook_smart_login_confirmation_title = 0x7f1000bf;
         public static final int com_facebook_tooltip_default = 0x7f1000c0;
-        public static final int search_menu_title = 0x7f100182;
-        public static final int status_bar_notification_info_overflow = 0x7f10019b;
+        public static final int search_menu_title = 0x7f100184;
+        public static final int status_bar_notification_info_overflow = 0x7f10019d;
     }
     public static final class style {
         private style() {}

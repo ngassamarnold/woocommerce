@@ -787,5 +787,6 @@ public class AppSettingsDetails {
     public void setGuestCheckout(String guestCheckout) {
         this.guestCheckout = guestCheckout;
     }
-    
+
+
 }

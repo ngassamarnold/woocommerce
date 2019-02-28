@@ -468,9 +468,10 @@ public class Utilities {
     //*********** Used to Share the App with Others ********//
 
     public static void shareMyApp(Context context) {
-    
-        String link = "https://play.google.com/store/apps/details?id="+context.getPackageName();
-        
+
+        //String link = "https://play.google.com/store/apps/details?id="+context.getPackageName();
+        String link  = (context.getString(R.string.message_invitation))+" "+(context.getString(R.string.lien_invitation))+context.getPackageName();
+
         Intent sharingIntent = new Intent(Intent.ACTION_SEND);
         sharingIntent.setType("text/*");
         sharingIntent.putExtra(Intent.EXTRA_TEXT, link);

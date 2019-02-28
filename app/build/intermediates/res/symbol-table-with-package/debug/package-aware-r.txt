@@ -2218,7 +2218,6 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id tv_address
-id tv_email
 id tv_telephone
 id uniform
 id unknown
@@ -2784,11 +2783,13 @@ string library_appintro_libraryVersion
 string library_appintro_libraryWebsite
 string library_appintro_licenseId
 string library_appintro_repositoryLink
+string lien_invitation
 string local_notification
 string login
 string login_or_create_account
 string login_or_signup
 string lorem_ipsum
+string message_invitation
 string messenger_send_button_text
 string mobile
 string mtrl_chip_close_icon_content_description

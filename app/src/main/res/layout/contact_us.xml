@@ -44,47 +44,19 @@
             android:layout_marginBottom="20dp"
             android:background="@color/white" >
 
-            <TextView
-                android:id="@+id/tv_address"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:maxLines="2"
-                android:textSize="14sp"
-                android:text="@string/address"
-                android:gravity="center_vertical"
-                android:textColor="@color/textColorSecondaryDark"
-                android:drawableStart="@drawable/ic_my_location"
-                android:drawablePadding="5dp"
-                android:drawableTint="@color/colorPrimary"
-                android:layout_marginTop="5dp"/>
-
-            <TextView
-                android:id="@+id/tv_telephone"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:maxLines="1"
-                android:textSize="14sp"
-                android:text="@string/mobile"
-                android:gravity="center_vertical"
-                android:textColor="@color/textColorSecondaryDark"
-                android:drawableStart="@drawable/ic_call"
-                android:drawablePadding="5dp"
-                android:drawableTint="@color/colorPrimary"
-                android:layout_marginTop="6dp"/>
-
-            <TextView
-                android:id="@+id/tv_email"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:maxLines="1"
-                android:textSize="14sp"
-                android:text="@string/email"
-                android:gravity="center_vertical"
-                android:textColor="@color/textColorSecondaryDark"
-                android:drawableStart="@drawable/ic_email"
-                android:drawablePadding="5dp"
-                android:drawableTint="@color/colorPrimary"
-                android:layout_marginTop="6dp"/>
+            <!-- <TextView
+                 android:id="@+id/tv_email"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:maxLines="1"
+                 android:textSize="14sp"
+                 android:text="@string/email"
+                 android:gravity="center_vertical"
+                 android:textColor="@color/textColorSecondaryDark"
+                 android:drawableStart="@drawable/ic_email"
+                 android:drawablePadding="5dp"
+                 android:drawableTint="@color/colorPrimary"
+                 android:layout_marginTop="6dp"/>-->
 
             <EditText
                 android:id="@+id/ed_name"
@@ -100,7 +72,8 @@
                 android:paddingEnd="15dp"
                 android:gravity="center_vertical"
                 android:layout_marginTop="20dp"
-                android:background="@drawable/rounded_corners_edittext_light" />
+                android:background="@drawable/rounded_corners_edittext_light"
+                android:drawableTint="@color/colorPrimary"/>
 
             <EditText
                 android:id="@+id/ed_email"
@@ -116,7 +89,41 @@
                 android:paddingEnd="15dp"
                 android:gravity="center_vertical"
                 android:layout_marginTop="@dimen/input_field_margin"
-                android:background="@drawable/rounded_corners_edittext_light" />
+                android:background="@drawable/rounded_corners_edittext_light"
+                android:drawableTint="@color/colorPrimary"/>
+            <TextView
+                android:id="@+id/tv_address"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/input_field_height"
+                android:maxLines="2"
+                android:textSize="14sp"
+                android:text="@string/address"
+                android:gravity="center_vertical"
+                android:textColor="@color/textColorSecondaryDark"
+                android:drawableStart="@drawable/ic_add_location"
+                android:drawablePadding="5dp"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:background="@drawable/rounded_corners_edittext_light"
+                android:drawableTint="@color/colorPrimary"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:id="@+id/tv_telephone"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/input_field_height"
+                android:maxLines="2"
+                android:textSize="14sp"
+                android:text="@string/mobile"
+                android:gravity="center_vertical"
+                android:textColor="@color/textColorSecondaryDark"
+                android:drawableStart="@drawable/ic_call"
+                android:drawablePadding="5dp"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:background="@drawable/rounded_corners_edittext_light"
+                android:drawableTint="@color/colorPrimary"
+                android:layout_marginTop="6dp"/>
 
             <EditText
                 android:id="@+id/ed_message"
@@ -135,17 +142,18 @@
                 android:gravity="center_vertical"
                 android:imeOptions="actionDone"
                 android:layout_marginTop="@dimen/input_field_margin"
-                android:background="@drawable/rounded_corners_edittext_light" />
+                android:background="@drawable/rounded_corners_edittext_light"
+                android:drawableTint="@color/colorPrimary"/>
 
             <android.support.v7.widget.AppCompatButton
                 android:id="@+id/btn_contact_us"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/button_height"
                 android:text="@string/messenger_send_button_text"
-                android:textColor="@color/white"
+                android:textColor="@color/black"
                 android:textSize="@dimen/button_text_size"
-                android:layout_marginTop="20dp"
-                android:background="@drawable/rounded_corners_button_green" />
+                android:layout_marginTop="30dp"
+                android:background="@color/colorPrimary" />
 
         </LinearLayout>
 
