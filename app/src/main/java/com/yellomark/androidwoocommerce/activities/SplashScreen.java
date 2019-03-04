@@ -12,6 +12,7 @@ import android.view.View;
 import android.view.Window;
 import android.widget.ProgressBar;
 import android.support.design.widget.Snackbar;
+import android.widget.Toast;
 
 import com.yellomark.androidwoocommerce.app.App;
 import com.yellomark.androidwoocommerce.app.MyAppPrefsManager;
@@ -57,8 +58,12 @@ public class SplashScreen extends Activity {
         startAppRequests = new StartAppRequests(this);
         myAppPrefsManager = new MyAppPrefsManager(this);
         
-        
-        ConstantValues.LANGUAGE_CODE = myAppPrefsManager.getUserLanguageCode();
+        //on recupere la langue du devise
+        Locale.getDefault().getLanguage();
+
+        ConstantValues.LANGUAGE_CODE =Locale.getDefault().getLanguage();
+
+        //ConstantValues.LANGUAGE_CODE = myAppPrefsManager.getUserLanguageCode();
         ConstantValues.IS_USER_LOGGED_IN = myAppPrefsManager.isUserLoggedIn();
         ConstantValues.IS_PUSH_NOTIFICATIONS_ENABLED = myAppPrefsManager.isPushNotificationsEnabled();
         ConstantValues.IS_LOCAL_NOTIFICATIONS_ENABLED = myAppPrefsManager.isLocalNotificationsEnabled();

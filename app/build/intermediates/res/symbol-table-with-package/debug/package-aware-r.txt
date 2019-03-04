@@ -2528,6 +2528,7 @@ string actionCategory
 string actionContactUs
 string actionFavourites
 string actionHome
+string actionHomes
 string actionIntro
 string actionLanguage
 string actionLogin

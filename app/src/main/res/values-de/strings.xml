@@ -293,5 +293,6 @@
 
     <string name="seller_info">Informatie van de verkoper</string>
     <string name="view_store">Zie winkel</string>
+    <string name="actionHomes">ZUHAUSE</string>
 
 </resources>

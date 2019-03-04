@@ -806,21 +806,21 @@ public final class R {
         public static final int abc_shareactionprovider_share_with = 0x7f100028;
         public static final int abc_shareactionprovider_share_with_application = 0x7f100029;
         public static final int abc_toolbar_collapse_description = 0x7f10002a;
-        public static final int app_intro_done_button = 0x7f10004d;
-        public static final int app_intro_skip_button = 0x7f10004e;
-        public static final int define_appintro = 0x7f1000f0;
-        public static final int library_appintro_author = 0x7f10012b;
-        public static final int library_appintro_authorWebsite = 0x7f10012c;
-        public static final int library_appintro_classPath = 0x7f10012d;
-        public static final int library_appintro_isOpenSource = 0x7f10012e;
-        public static final int library_appintro_libraryDescription = 0x7f10012f;
-        public static final int library_appintro_libraryName = 0x7f100130;
-        public static final int library_appintro_libraryVersion = 0x7f100131;
-        public static final int library_appintro_libraryWebsite = 0x7f100132;
-        public static final int library_appintro_licenseId = 0x7f100133;
-        public static final int library_appintro_repositoryLink = 0x7f100134;
-        public static final int search_menu_title = 0x7f100184;
-        public static final int status_bar_notification_info_overflow = 0x7f10019d;
+        public static final int app_intro_done_button = 0x7f10004e;
+        public static final int app_intro_skip_button = 0x7f10004f;
+        public static final int define_appintro = 0x7f1000f1;
+        public static final int library_appintro_author = 0x7f10012c;
+        public static final int library_appintro_authorWebsite = 0x7f10012d;
+        public static final int library_appintro_classPath = 0x7f10012e;
+        public static final int library_appintro_isOpenSource = 0x7f10012f;
+        public static final int library_appintro_libraryDescription = 0x7f100130;
+        public static final int library_appintro_libraryName = 0x7f100131;
+        public static final int library_appintro_libraryVersion = 0x7f100132;
+        public static final int library_appintro_libraryWebsite = 0x7f100133;
+        public static final int library_appintro_licenseId = 0x7f100134;
+        public static final int library_appintro_repositoryLink = 0x7f100135;
+        public static final int search_menu_title = 0x7f100185;
+        public static final int status_bar_notification_info_overflow = 0x7f10019e;
     }
     public static final class style {
         private style() {}

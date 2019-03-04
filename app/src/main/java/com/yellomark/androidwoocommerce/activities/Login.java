@@ -107,7 +107,7 @@ public class Login extends AppCompatActivity implements GoogleApiClient.OnConnec
 
         // Initializing Google SDK for Google Login
         mGoogleSignInOptions = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
-                .requestIdToken(getString(R.string.default_web_client_id))
+               // .requestIdToken(getString(R.string.default_web_client_id))
                 .requestEmail()
                 .build();
 

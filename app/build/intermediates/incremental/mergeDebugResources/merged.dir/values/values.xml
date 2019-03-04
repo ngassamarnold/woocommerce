@@ -654,6 +654,7 @@
     <string name="actionContactUs"> CONTACT US </string>
     <string name="actionFavourites"> MY FAVORITES </string>
     <string name="actionHome"> HOME </string>
+    <string name="actionHomes">HOME</string>
     <string name="actionIntro"> INTRO </string>
     <string name="actionLanguage" translatable="false"> LANGUAGE </string>
     <string name="actionLogin"> LOGIN </string>

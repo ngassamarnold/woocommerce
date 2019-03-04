@@ -139,8 +139,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         
         MobileAds.initialize(this, ConstantValues.ADMOBE_ID);
-        
-        
+
+
+
         // Get MyAppPrefsManager
         myAppPrefsManager = new MyAppPrefsManager(MainActivity.this);
         sharedPreferences = getSharedPreferences("UserInfo", MODE_PRIVATE);
@@ -344,13 +345,22 @@ public class MainActivity extends AppCompatActivity {
         
         
         if (appSettings != null) {
-            
-           listDataHeader.add(new Drawer_Items(R.drawable.ic_home, getString(R.string.actionHome)));
+
+
+            listDataHeader.add(new Drawer_Items(R.drawable.ic_home, getString(R.string.actionHomes)));
+
+            //listDataHeader.add(new Drawer_Items(R.drawable.ic_home, getString(R.string.actionHome)));
             listDataHeader.add(new Drawer_Items(R.drawable.ic_categories, getString(R.string.actionCategories)));
             listDataHeader.add(new Drawer_Items(R.drawable.ic_cart, getString(R.string.actionShop)));
 
             listDataHeader.add(new Drawer_Items(R.drawable.ic_favorite, getString(R.string.actionFavourites)));
+
             listDataHeader.add(new Drawer_Items(R.drawable.ic_share, getString(R.string.actionShareApp)));
+            listDataHeader.add(new Drawer_Items(R.drawable.ic_chat_bubble, getString(R.string.actionContactUs)));
+            //listDataHeader.add(new Drawer_Items(R.drawable.ic_home, getString(R.string.actionHome)));
+
+
+
 
 
 
@@ -393,10 +403,10 @@ public class MainActivity extends AppCompatActivity {
             //if (!ConstantValues.IS_CLIENT_ACTIVE) {
                 List<Drawer_Items> home_styles = new ArrayList<>();
                 home_styles.add(new Drawer_Items(R.drawable.ic_home, getString(R.string.homeStyle1)));
-                home_styles.add(new Drawer_Items(R.drawable.ic_home, getString(R.string.homeStyle2)));
+                /*home_styles.add(new Drawer_Items(R.drawable.ic_home, getString(R.string.homeStyle2)));
                 home_styles.add(new Drawer_Items(R.drawable.ic_home, getString(R.string.homeStyle3)));
                 home_styles.add(new Drawer_Items(R.drawable.ic_home, getString(R.string.homeStyle4)));
-                home_styles.add(new Drawer_Items(R.drawable.ic_home, getString(R.string.homeStyle5)));
+                home_styles.add(new Drawer_Items(R.drawable.ic_home, getString(R.string.homeStyle5)));*/
                 
                 List<Drawer_Items> category_styles = new ArrayList<>();
                 category_styles.add(new Drawer_Items(R.drawable.ic_categories, getString(R.string.categoryStyle1)));
@@ -410,7 +420,7 @@ public class MainActivity extends AppCompatActivity {
                 shop_childs.add(new Drawer_Items(R.drawable.ic_sale, getString(R.string.Sale)));
                 shop_childs.add(new Drawer_Items(R.drawable.ic_arrow_up, getString(R.string.Newest)));
                 shop_childs.add(new Drawer_Items(R.drawable.ic_star_circle, getString(R.string.Featured)));
-                
+
                 
                 // Add Child to selective Headers
                 listDataChild.put(listDataHeader.get(0), home_styles);
@@ -615,19 +625,22 @@ public class MainActivity extends AppCompatActivity {
         
         if(selectedItem.equalsIgnoreCase(getString(R.string.actionHome))) {
             mSelectedItem = selectedItem;
-            
-            // Navigate to any selected HomePage Fragment
+
+            // Navigate to WishList Fragment
+            //fragment = new WishList();
             fragment = new HomePage_1();
             fragmentManager.beginTransaction()
                     .replace(R.id.main_fragment, fragment)
-                    .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN)
-                    .commit();
-            
+                    .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE)
+                    .addToBackStack(getString(R.string.actionHome)).commit();
+
             drawerLayout.closeDrawers();
             
         }
+
         else if(selectedItem.equalsIgnoreCase(getString(R.string.homeStyle1))) {
             mSelectedItem = selectedItem;
+
             
             // Navigate to HomePage1 Fragment
             fragment = new HomePage_1();
@@ -932,6 +945,7 @@ public class MainActivity extends AppCompatActivity {
             
             // Navigate to WishList Fragment
             fragment = new WishList();
+           // fragment = new HomePage_1();
             fragmentManager.beginTransaction()
                     .replace(R.id.main_fragment, fragment)
                     .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE)
@@ -939,6 +953,34 @@ public class MainActivity extends AppCompatActivity {
             
             drawerLayout.closeDrawers();
             
+        }
+        else if (selectedItem.equalsIgnoreCase(getString(R.string.actionHomes))) {
+            mSelectedItem = selectedItem;
+
+            // Navigate to WishList Fragment
+            //fragment = new WishList();
+            fragment = new HomePage_1();
+            fragmentManager.beginTransaction()
+                    .replace(R.id.main_fragment, fragment)
+                    .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE)
+                    .addToBackStack(getString(R.string.actionHome)).commit();
+
+            drawerLayout.closeDrawers();
+
+        }
+        else if (selectedItem.equalsIgnoreCase(getString(R.string.actionFavourites))) {
+            mSelectedItem = selectedItem;
+
+            // Navigate to WishList Fragment
+            fragment = new WishList();
+            //fragment = new HomePage_1();
+            fragmentManager.beginTransaction()
+                    .replace(R.id.main_fragment, fragment)
+                    .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE)
+                    .addToBackStack(getString(R.string.actionHome)).commit();
+
+            drawerLayout.closeDrawers();
+
         }
         else if (selectedItem.equalsIgnoreCase(getString(R.string.actionNews))) {
             mSelectedItem = selectedItem;

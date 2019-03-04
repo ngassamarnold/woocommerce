@@ -294,6 +294,8 @@
 
     <string name="seller_info">Seller Information</string>
     <string name="view_store">View store</string>
+    <string name="actionHomes">HOME</string>
+
 
 
 </resources>

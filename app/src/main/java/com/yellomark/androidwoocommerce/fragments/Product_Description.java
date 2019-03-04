@@ -153,7 +153,14 @@ public class Product_Description extends Fragment implements BaseSliderView.OnSl
         
         // Set the Title of Toolbar
         MainActivity.actionBarDrawerToggle.setDrawerIndicatorEnabled(false);
-        ((AppCompatActivity)getActivity()).getSupportActionBar().setTitle(getString(R.string.product_description));
+
+        // pour mettre le nom du produit sur le Toolbar
+        if (getArguments().containsKey("productDetails")) {
+            productDetails = getArguments().getParcelable("productDetails");
+
+             ((AppCompatActivity)getActivity()).getSupportActionBar().setTitle(productDetails.getName());
+        }
+        else ((AppCompatActivity)getActivity()).getSupportActionBar().setTitle(getString(R.string.product_description));
         appSettings = ((App) getContext().getApplicationContext()).getAppSettingsDetails();
         
        
