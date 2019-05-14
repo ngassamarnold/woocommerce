@@ -946,17 +946,17 @@ public final class R {
         public static final int com_facebook_loginview_log_out_button = 0x7f1000b7;
         public static final int com_facebook_loginview_logged_in_as = 0x7f1000b8;
         public static final int com_facebook_loginview_logged_in_using_facebook = 0x7f1000b9;
-        public static final int com_facebook_send_button_text = 0x7f1000ba;
-        public static final int com_facebook_share_button_text = 0x7f1000bb;
-        public static final int com_facebook_smart_device_instructions = 0x7f1000bc;
-        public static final int com_facebook_smart_device_instructions_or = 0x7f1000bd;
-        public static final int com_facebook_smart_login_confirmation_cancel = 0x7f1000be;
-        public static final int com_facebook_smart_login_confirmation_continue_as = 0x7f1000bf;
-        public static final int com_facebook_smart_login_confirmation_title = 0x7f1000c0;
-        public static final int com_facebook_tooltip_default = 0x7f1000c1;
-        public static final int messenger_send_button_text = 0x7f10013d;
-        public static final int search_menu_title = 0x7f100185;
-        public static final int status_bar_notification_info_overflow = 0x7f10019e;
+        public static final int com_facebook_send_button_text = 0x7f1000bb;
+        public static final int com_facebook_share_button_text = 0x7f1000bc;
+        public static final int com_facebook_smart_device_instructions = 0x7f1000bd;
+        public static final int com_facebook_smart_device_instructions_or = 0x7f1000be;
+        public static final int com_facebook_smart_login_confirmation_cancel = 0x7f1000bf;
+        public static final int com_facebook_smart_login_confirmation_continue_as = 0x7f1000c0;
+        public static final int com_facebook_smart_login_confirmation_title = 0x7f1000c1;
+        public static final int com_facebook_tooltip_default = 0x7f1000c2;
+        public static final int messenger_send_button_text = 0x7f10013e;
+        public static final int search_menu_title = 0x7f100186;
+        public static final int status_bar_notification_info_overflow = 0x7f10019f;
     }
     public static final class style {
         private style() {}

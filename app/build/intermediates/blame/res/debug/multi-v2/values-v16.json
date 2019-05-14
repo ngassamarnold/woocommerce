@@ -4,24 +4,7 @@
             "outputFile": "E:\\STILLFORCE LTD\\market place\\woocommerce\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Ngassam\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\003f58a5bd0ef7e15e3d0cabca906a35\\res\\values-v16\\values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "100",
-                        "endColumns": "65",
-                        "endOffsets": "161"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Ngassam\\.gradle\\caches\\transforms-1\\files-1.1\\drop-in-3.7.1.aar\\ad1d45553c380a5d09ba47ae6586de0c\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\Ngassam\\.gradle\\caches\\transforms-1\\files-1.1\\drop-in-3.7.1.aar\\11cb77e06b12ff34034019afa95467cb\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2,6,15",
                         "startColumns": "4,4,4",
@@ -40,7 +23,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Ngassam\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9cc8b9abb644e0ac8d4e38cfff0e3645\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\Ngassam\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\28a86606267472dfb913c7ad4fdd016e\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "100",
+                        "endColumns": "65",
+                        "endOffsets": "161"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Ngassam\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\1601cb897ebec47d24132b6860d7a1d0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

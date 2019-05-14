@@ -4,7 +4,7 @@
             "outputFile": "E:\\STILLFORCE LTD\\market place\\woocommerce\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Ngassam\\.gradle\\caches\\transforms-1\\files-1.1\\card-form-3.5.0.aar\\2ec0117b3c08ef2e266cb4178923efb3\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\Ngassam\\.gradle\\caches\\transforms-1\\files-1.1\\card-form-3.5.0.aar\\2c6d43c347f5ae804626c6865fe780ae\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",
@@ -21,17 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Ngassam\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9cc8b9abb644e0ac8d4e38cfff0e3645\\res\\values-land\\values-land.xml",
-                    "from": {
-                        "startLines": "2,3,4",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,125,196",
-                        "endColumns": "69,70,67",
-                        "endOffsets": "120,191,259"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Ngassam\\.gradle\\caches\\transforms-1\\files-1.1\\drop-in-3.7.1.aar\\ad1d45553c380a5d09ba47ae6586de0c\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\Ngassam\\.gradle\\caches\\transforms-1\\files-1.1\\drop-in-3.7.1.aar\\11cb77e06b12ff34034019afa95467cb\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2,3,4,5,6",
                         "startColumns": "4,4,4,4,4",
@@ -48,7 +38,17 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Ngassam\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\a0a5040ac9b13765f95966090cd8687f\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\Ngassam\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\1601cb897ebec47d24132b6860d7a1d0\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,125,196",
+                        "endColumns": "69,70,67",
+                        "endOffsets": "120,191,259"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Ngassam\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\cf0350285761a134e2f9f8d8638184b5\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

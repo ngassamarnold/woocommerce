@@ -397,11 +397,6 @@
             android:theme="@style/bt_transparent_activity" />
 
         <service android:name="com.braintreepayments.api.internal.AnalyticsIntentService" />
-
-        <provider
-            android:name="com.facebook.marketing.internal.MarketingInitProvider"
-            android:authorities="com.yellomark.androidwoocommerce.MarketingInitProvider"
-            android:exported="false" />
         <!--
          The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
          with the application context. This config is merged in with the host app's manifest,
