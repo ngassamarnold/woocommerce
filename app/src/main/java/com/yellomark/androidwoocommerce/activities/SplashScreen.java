@@ -126,9 +126,9 @@ public class SplashScreen extends Activity {
             
             //ConstantValues.IS_GOOGLE_LOGIN_ENABLED = ("1".equalsIgnoreCase(appSettings.getGoogleLogin()));
            // ConstantValues.IS_FACEBOOK_LOGIN_ENABLED = ("1".equalsIgnoreCase(appSettings.getFacebookLogin()));
-            ConstantValues.IS_ADD_TO_CART_BUTTON_ENABLED = ("1".equalsIgnoreCase(appSettings.getCartButton()));
+           // ConstantValues.IS_ADD_TO_CART_BUTTON_ENABLED = ("1".equalsIgnoreCase(appSettings.getCartButton()));
             
-            ConstantValues.IS_ADMOBE_ENABLED = ("1".equalsIgnoreCase(appSettings.getAdmob()));
+           // ConstantValues.IS_ADMOBE_ENABLED = ("1".equalsIgnoreCase(appSettings.getAdmob()));
             ConstantValues.ADMOBE_ID = appSettings.getAdmobId();
             ConstantValues.AD_UNIT_ID_BANNER = appSettings.getAdUnitIdBanner();
             ConstantValues.AD_UNIT_ID_INTERSTITIAL = appSettings.getAdUnitIdInterstitial();

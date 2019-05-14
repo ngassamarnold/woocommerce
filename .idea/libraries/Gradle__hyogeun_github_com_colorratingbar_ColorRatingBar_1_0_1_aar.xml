@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: hyogeun.github.com.colorratingbar:ColorRatingBar:1.0.1@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/ColorRatingBar-1.0.1.aar/327b1612d22a5bf6871054f311a67660/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/ColorRatingBar-1.0.1.aar/327b1612d22a5bf6871054f311a67660/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/ColorRatingBar-1.0.1.aar/af0ce282c18bc5aa23f48341de02e019/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/ColorRatingBar-1.0.1.aar/af0ce282c18bc5aa23f48341de02e019/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

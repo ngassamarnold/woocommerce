@@ -354,9 +354,20 @@ public class MainActivity extends AppCompatActivity {
             listDataHeader.add(new Drawer_Items(R.drawable.ic_cart, getString(R.string.actionShop)));
 
             listDataHeader.add(new Drawer_Items(R.drawable.ic_favorite, getString(R.string.actionFavourites)));
+            listDataHeader.add(new Drawer_Items(R.drawable.ic_order, getString(R.string.actionOrders)));
+            listDataHeader.add(new Drawer_Items(R.drawable.ic_star_circle, getString(R.string.actionRateApp)));
 
+
+            if (ConstantValues.IS_USER_LOGGED_IN) {
+                listDataHeader.add(new Drawer_Items(R.drawable.map_marker, getString(R.string.address_info)));
+                listDataHeader.add(new Drawer_Items(R.drawable.download, getString(R.string.download)));
+
+            }
             listDataHeader.add(new Drawer_Items(R.drawable.ic_share, getString(R.string.actionShareApp)));
             listDataHeader.add(new Drawer_Items(R.drawable.ic_chat_bubble, getString(R.string.actionContactUs)));
+            listDataHeader.add(new Drawer_Items(R.drawable.ic_settings, getString(R.string.actionSettings)));
+
+
             //listDataHeader.add(new Drawer_Items(R.drawable.ic_home, getString(R.string.actionHome)));
 
 

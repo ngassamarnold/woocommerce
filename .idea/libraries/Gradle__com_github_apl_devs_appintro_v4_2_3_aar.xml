@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.apl-devs:appintro:v4.2.3@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/appintro-v4.2.3.aar/4423df4b90361256c3c9688b65805e6d/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/appintro-v4.2.3.aar/4423df4b90361256c3c9688b65805e6d/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/appintro-v4.2.3.aar/d92e52b650719003d6d970f564cac184/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/appintro-v4.2.3.aar/d92e52b650719003d6d970f564cac184/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

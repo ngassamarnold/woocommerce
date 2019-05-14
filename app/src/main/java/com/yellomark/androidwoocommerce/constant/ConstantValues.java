@@ -31,14 +31,14 @@ public class ConstantValues {
     public static String FILTER_MAX_PRICE;
     public static long NEW_PRODUCT_DURATION;
     
-    public static boolean IS_GUEST_CHECKOUT_ENABLED;
-    public static boolean IS_ONE_PAGE_CHECKOUT_ENABLED;
+    public static boolean IS_GUEST_CHECKOUT_ENABLED=true;
+    public static boolean IS_ONE_PAGE_CHECKOUT_ENABLED=true;
     
-    public static boolean IS_GOOGLE_LOGIN_ENABLED=true;;
+    public static boolean IS_GOOGLE_LOGIN_ENABLED=true;
     public static boolean IS_FACEBOOK_LOGIN_ENABLED=true;
-    public static boolean IS_ADD_TO_CART_BUTTON_ENABLED;
+    public static boolean IS_ADD_TO_CART_BUTTON_ENABLED=true;
     
-    public static boolean IS_ADMOBE_ENABLED;
+    public static boolean IS_ADMOBE_ENABLED=true;
     public static String ADMOBE_ID="ca-app-pub-4302071774857897~9618655719";
     public static String AD_UNIT_ID_BANNER;
     public static String AD_UNIT_ID_INTERSTITIAL;

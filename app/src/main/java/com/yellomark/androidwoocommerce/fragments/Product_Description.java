@@ -259,7 +259,7 @@ public class Product_Description extends Fragment implements BaseSliderView.OnSl
     
         // Get if multivender is on or off
     
-        if("1".equalsIgnoreCase(appSettings.getDokan_enabled())){
+        if(!"1".equalsIgnoreCase(appSettings.getDokan_enabled())){
             seller_div.setVisibility(View.VISIBLE);
             sellerID = productDetails.getStore().getId();
             // Request for seller information
