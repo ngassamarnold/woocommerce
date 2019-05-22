@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.yellomark.androidwoocommerce"
-    android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionCode="2"
+    android:versionName="1.2" >
 
     <uses-sdk
         android:minSdkVersion="17"
@@ -397,11 +397,6 @@
             android:theme="@style/bt_transparent_activity" />
 
         <service android:name="com.braintreepayments.api.internal.AnalyticsIntentService" />
-
-        <provider
-            android:name="com.facebook.marketing.internal.MarketingInitProvider"
-            android:authorities="com.yellomark.androidwoocommerce.MarketingInitProvider"
-            android:exported="false" />
         <!--
          The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
          with the application context. This config is merged in with the host app's manifest,

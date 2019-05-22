@@ -64,15 +64,15 @@
     <string name="grant"> Subvention </string>
     <string name="title"> Titre </string>
     <string name="retry"> Reessayer </string>
-    <string name="apply"> Postuler </string>
-    <string name="search"> Recherche </string>F
+    <string name="apply"> Valider </string>
+    <string name="search"> Recherche </string>
     <string name="clear"> Effacer </string>
     <string name="login"> Se connecter </string>
-    <string name="signup"> s inscrire </string>
+    <string name="signup"> s\'inscrire </string>
     <string name="cancel"> Annuler </string>
     <string name="welcome"> Bienvenue </string>
     <string name="explore"> Explorer </string>
-    <string name="checkout"> Decaisser  </string>
+    <string name="checkout"> Acheter  </string>
     <string name="register"> Enregistrer </string>
     <string name="update"> Mettre à jour </string>
     <string name="expire_download"> Expire le </string>
@@ -85,7 +85,7 @@
     <string name="invalid_credit_card"> carte de crédit invalide </string>
     <string name="expired_card"> La carte a expiré </string>
     <string name="invalid_card_cvv"> Carte CVV non valide  </string>
-    <string name="cannot_get_payment_methods"> Erreur lors de l obtention des moyens de paiement </string>
+    <string name="cannot_get_payment_methods"> Erreur lors de l\' obtention des moyens de paiement </string>
     <string name="select_card_expiry"> Sélectionnez la date d expiration de votre carte </string>
     <string name="shipping_address_update"> L adresse de livraison a été mise à jour avec succès. </string>
 
@@ -239,11 +239,11 @@
     <string name="slide_3_title"> Page de Boutique </string>
     <string name="slide_4_title"> page de Panier  </string>
     <string name="slide_5_title"> Page de commandes </string>
-    <string name="slide_1_desc"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </string>
-    <string name="slide_2_desc"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </string>
-    <string name="slide_3_desc"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </string>
-    <string name="slide_4_desc"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </string>
-    <string name="slide_5_desc"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </string>
+    <string name="slide_1_desc"> Boutique en ligne 24h/24 </string>
+    <string name="slide_2_desc"> Catégorie de produit diversifié </string>
+    <string name="slide_3_desc">Achat rapide et très facil  </string>
+    <string name="slide_4_desc"> Ajout illimité des produits au panier  </string>
+    <string name="slide_5_desc"> Livraison de vos produit où vous êtes </string>
 
 
     <!--  App Settings Strings -->

@@ -5,8 +5,6 @@
       <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/facebook-applinks-4.41.0.aar/09e145d1d8b927e8dede8df44dec160f/res" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.android/facebook-applinks/4.41.0/9efa48ab33619d36dc3d98fa090054746bdda35d/facebook-applinks-4.41.0-sources.jar!/" />
-    </SOURCES>
+    <SOURCES />
   </library>
 </component>

@@ -267,11 +267,11 @@
     <string name="slide_3_title"> Shop Page </string>
     <string name="slide_4_title"> Cart Page </string>
     <string name="slide_5_title"> Order Page </string>
-    <string name="slide_1_desc"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </string>
-    <string name="slide_2_desc"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </string>
-    <string name="slide_3_desc"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </string>
-    <string name="slide_4_desc"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </string>
-    <string name="slide_5_desc"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </string>
+    <string name="slide_1_desc"> Online shop 24 hours a day </string>
+    <string name="slide_2_desc"> Diversified product category </string>
+    <string name="slide_3_desc"> Quick and very easy purchase </string>
+    <string name="slide_4_desc"> Unlimited addition of products to cart </string>
+    <string name="slide_5_desc"> Delivery of your product where you are </string>
 
 
     <!--  App Settings Strings -->

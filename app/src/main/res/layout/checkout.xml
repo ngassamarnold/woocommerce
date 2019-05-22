@@ -13,6 +13,24 @@
         android:id="@+id/main_checkout"
         android:background="@color/layoutBackgroundLight">
 
+        <TextView
+            android:id="@+id/payment_method"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/payment_method"
+            android:maxLines="1"
+            android:textSize="16sp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="10dp"
+            android:clickable="true"
+            android:layout_marginTop="15dp"
+            android:gravity="center_vertical"
+            android:drawableEnd="@drawable/ic_chevron_down"
+            android:textColor="@color/textColorSecondaryDark"
+            android:background="@color/windowBackgroundLight" />
+
 
     <android.support.v4.widget.NestedScrollView
         android:id="@+id/scroll_container"
@@ -25,6 +43,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
+
 
 
             <android.support.v7.widget.CardView
@@ -64,6 +83,7 @@
                             android:tint="@color/colorAccent"
                             android:layout_alignParentEnd="true"
                             android:layout_marginEnd="5dp"
+                            android:visibility="gone"
                             android:background="@android:color/transparent" />
 
                     </RelativeLayout>
@@ -149,7 +169,8 @@
                             android:tint="@color/colorAccent"
                             android:layout_alignParentEnd="true"
                             android:layout_marginEnd="5dp"
-                            android:background="@android:color/transparent" />
+                            android:background="@android:color/transparent"
+                            android:visibility="gone"/>
 
                     </RelativeLayout>
 
@@ -234,7 +255,8 @@
                             android:tint="@color/colorAccent"
                             android:layout_alignParentEnd="true"
                             android:layout_marginEnd="5dp"
-                            android:background="@android:color/transparent" />
+                            android:background="@android:color/transparent"
+                            android:visibility="gone"/>
 
                     </RelativeLayout>
 
@@ -313,19 +335,22 @@
                         android:textSize="16sp"
                         android:textColor="@color/textColorSecondaryDark"
                         android:padding="5dp"
+                        android:visibility="gone"
                         android:background="@color/windowBackgroundLight" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="vertical"
-                        android:padding="5dp" >
+                        android:padding="5dp"
+                        android:visibility="gone">
 
                         <RelativeLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:orientation="horizontal"
-                            android:gravity="center_vertical" >
+                            android:gravity="center_vertical"
+                            android:visibility="gone">
 
                             <TextView
                                 android:layout_width="wrap_content"
@@ -333,6 +358,7 @@
                                 android:maxLines="1"
                                 android:text="@string/subtotal"
                                 android:textSize="14sp"
+                                android:visibility="gone"
                                 android:textColor="@color/textColorSecondary" />
 
                             <TextView
@@ -345,6 +371,7 @@
                                 android:textColor="@color/textColorSecondary"
                                 android:textAlignment="textEnd"
                                 android:gravity="end"
+                                android:visibility="gone"
                                 android:layout_alignParentEnd="true" />
 
                         </RelativeLayout>
@@ -353,7 +380,8 @@
                             android:layout_height="wrap_content"
                             android:orientation="horizontal"
                             android:gravity="center_vertical"
-                            android:layout_marginTop="5dp" >
+                            android:layout_marginTop="5dp"
+                            android:visibility="gone">
 
                             <TextView
                                 android:layout_width="wrap_content"
@@ -361,6 +389,7 @@
                                 android:maxLines="1"
                                 android:text="@string/tax"
                                 android:textSize="14sp"
+                                android:visibility="gone"
                                 android:textColor="@color/textColorSecondary" />
 
                             <TextView
@@ -373,7 +402,8 @@
                                 android:textColor="@color/textColorSecondary"
                                 android:textAlignment="textEnd"
                                 android:gravity="end"
-                                android:layout_alignParentEnd="true" />
+                                android:layout_alignParentEnd="true"
+                                android:visibility="gone"/>
 
                         </RelativeLayout>
                         <RelativeLayout
@@ -381,7 +411,8 @@
                             android:layout_height="wrap_content"
                             android:orientation="horizontal"
                             android:gravity="center_vertical"
-                            android:layout_marginTop="5dp" >
+                            android:layout_marginTop="5dp"
+                            android:visibility="gone">
 
                             <TextView
                                 android:layout_width="wrap_content"
@@ -389,6 +420,7 @@
                                 android:maxLines="1"
                                 android:text="@string/shipping"
                                 android:textSize="14sp"
+                                android:visibility="gone"
                                 android:textColor="@color/textColorSecondary" />
 
                             <TextView
@@ -401,7 +433,8 @@
                                 android:textColor="@color/textColorSecondary"
                                 android:textAlignment="textEnd"
                                 android:gravity="end"
-                                android:layout_alignParentEnd="true" />
+                                android:layout_alignParentEnd="true"
+                                android:visibility="gone"/>
 
                         </RelativeLayout>
                         <RelativeLayout
@@ -409,7 +442,8 @@
                             android:layout_height="wrap_content"
                             android:orientation="horizontal"
                             android:gravity="center_vertical"
-                            android:layout_marginTop="5dp" >
+                            android:layout_marginTop="5dp"
+                            android:visibility="gone">
 
                             <TextView
                                 android:layout_width="wrap_content"
@@ -417,6 +451,7 @@
                                 android:maxLines="1"
                                 android:text="@string/discount"
                                 android:textSize="14sp"
+                                android:visibility="gone"
                                 android:textColor="@color/textColorSecondary" />
 
                             <TextView
@@ -429,7 +464,8 @@
                                 android:textColor="@color/textColorSecondary"
                                 android:textAlignment="textEnd"
                                 android:gravity="end"
-                                android:layout_alignParentEnd="true" />
+                                android:layout_alignParentEnd="true"
+                                android:visibility="gone"/>
 
                         </RelativeLayout>
                         <RelativeLayout
@@ -437,6 +473,7 @@
                             android:layout_height="wrap_content"
                             android:orientation="horizontal"
                             android:gravity="center_vertical"
+                            android:visibility="gone"
                             android:layout_marginTop="5dp" >
 
                             <TextView
@@ -445,6 +482,7 @@
                                 android:maxLines="1"
                                 android:text="@string/total"
                                 android:textSize="14sp"
+                                android:visibility="gone"
                                 android:textColor="@color/textColorSecondary" />
 
                             <TextView
@@ -457,6 +495,7 @@
                                 android:textColor="@color/textColorSecondary"
                                 android:textAlignment="textEnd"
                                 android:gravity="end"
+                                android:visibility="gone"
                                 android:layout_alignParentEnd="true" />
 
                         </RelativeLayout>
@@ -514,23 +553,7 @@
             </android.support.v7.widget.CardView>
 
 
-            <TextView
-                android:id="@+id/payment_method"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/payment_method"
-                android:maxLines="1"
-                android:textSize="16sp"
-                android:paddingTop="10dp"
-                android:paddingBottom="10dp"
-                android:paddingStart="5dp"
-                android:paddingEnd="10dp"
-                android:clickable="true"
-                android:layout_marginTop="15dp"
-                android:gravity="center_vertical"
-                android:drawableEnd="@drawable/ic_chevron_down"
-                android:textColor="@color/textColorSecondaryDark"
-                android:background="@color/windowBackgroundLight" />
+
 
 
             <!--<android.support.v7.widget.CardView

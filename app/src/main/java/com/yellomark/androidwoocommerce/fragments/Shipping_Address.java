@@ -705,25 +705,25 @@ public class Shipping_Address extends Fragment {
         } else if (!ValidateInputs.isValidInput(input_address_1.getText().toString().trim())) {
             input_address_1.setError(getString(R.string.invalid_address));
             return false;
-        } else if (!ValidateInputs.isIfValidInput(input_address_2.getText().toString().trim())) {
+        } /*else if (!ValidateInputs.isIfValidInput(input_address_2.getText().toString().trim())) {
             input_address_2.setError(getString(R.string.invalid_address));
             return false;
-        } else if (!ValidateInputs.isIfValidInput(input_company.getText().toString().trim())) {
+        }*/ else if (!ValidateInputs.isIfValidInput(input_company.getText().toString().trim())) {
             input_company.setError(getString(R.string.invalid_company));
             return false;
         } else if (!ValidateInputs.isValidInput(input_country.getText().toString().trim())) {
             input_country.setError(getString(R.string.select_country));
             return false;
-        } else if (!ValidateInputs.isValidInput(input_zone.getText().toString().trim())) {
+        } /*else if (!ValidateInputs.isValidInput(input_zone.getText().toString().trim())) {
             input_zone.setError(getString(R.string.select_zone));
             return false;
-        } else if (!ValidateInputs.isValidInput(input_city.getText().toString().trim())) {
+        }*/ else if (!ValidateInputs.isValidInput(input_city.getText().toString().trim())) {
             input_city.setError(getString(R.string.enter_city));
             return false;
-        } else if (!ValidateInputs.isValidNumber(input_postcode.getText().toString().trim())) {
+        } /*else if (!ValidateInputs.isValidNumber(input_postcode.getText().toString().trim())) {
             input_postcode.setError(getString(R.string.invalid_post_code));
             return false;
-        } else {
+        }*/ else {
             return true;
         }
     }

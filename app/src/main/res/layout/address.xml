@@ -85,7 +85,8 @@
                 android:paddingEnd="15dp"
                 android:gravity="start|center_vertical"
                 android:layout_marginTop="@dimen/input_field_margin"
-                android:background="@drawable/rounded_corners_edittext_dark" />
+                android:background="@drawable/rounded_corners_edittext_dark"
+                android:visibility="gone"/>
 
             <com.yellomark.androidwoocommerce.customs.CustomEditText
                 android:id="@+id/company"
@@ -102,7 +103,8 @@
                 android:paddingEnd="15dp"
                 android:gravity="start|center_vertical"
                 android:layout_marginTop="@dimen/input_field_margin"
-                android:background="@drawable/rounded_corners_edittext_dark" />
+                android:background="@drawable/rounded_corners_edittext_dark"
+                android:visibility="gone"/>
 
             <com.yellomark.androidwoocommerce.customs.CustomEditText
                 android:id="@+id/country"
@@ -138,7 +140,8 @@
                 android:paddingEnd="15dp"
                 android:gravity="start|center_vertical"
                 android:layout_marginTop="@dimen/input_field_margin"
-                android:background="@drawable/rounded_corners_edittext_dark" />
+                android:background="@drawable/rounded_corners_edittext_dark"
+                android:visibility="gone"/>
 
             <com.yellomark.androidwoocommerce.customs.CustomEditText
                 android:id="@+id/city"
@@ -172,7 +175,8 @@
                 android:paddingEnd="15dp"
                 android:gravity="start|center_vertical"
                 android:layout_marginTop="@dimen/input_field_margin"
-                android:background="@drawable/rounded_corners_edittext_dark" />
+                android:background="@drawable/rounded_corners_edittext_dark"
+                android:visibility="gone"/>
 
             <com.yellomark.androidwoocommerce.customs.CustomEditText
                 android:id="@+id/email"

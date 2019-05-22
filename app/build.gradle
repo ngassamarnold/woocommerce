@@ -14,8 +14,8 @@ android {
         applicationId 'com.yellomark.androidwoocommerce'
         minSdkVersion 17
         targetSdkVersion 28
-        versionCode 1
-        versionName '1.0'
+        versionCode 2
+        versionName '1.2'
         multiDexEnabled true
         manifestPlaceholders = [onesignal_app_id: "658cd97e-3093-4254-b2aa-067b608b85a7", onesignal_google_project_number: "REMOTE"]
         signingConfig signingConfigs.config

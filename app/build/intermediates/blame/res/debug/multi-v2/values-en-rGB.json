@@ -89,6 +89,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\Ngassam\\.gradle\\caches\\transforms-1\\files-1.1\\facebook-login-4.42.0.aar\\0a49c63d5c691bcf06e455e169927124\\res\\values-en-rGB\\values-en-rGB.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,190,302,377",
+                        "endColumns": "134,111,74,147",
+                        "endOffsets": "185,297,372,520"
+                    },
+                    "to": {
+                        "startLines": "29,30,31,32",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "2764,2899,3011,3086",
+                        "endColumns": "134,111,74,147",
+                        "endOffsets": "2894,3006,3081,3229"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Ngassam\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-16.1.0.aar\\0fbab73f9261cdcd65df8e764c46ff92\\res\\values-en-rGB\\values.xml",
                     "from": {
                         "startLines": "4",
@@ -120,23 +137,6 @@
                         "startOffsets": "6190,6261,6366,6434,6503,6586,6684",
                         "endColumns": "70,104,67,68,82,97,68",
                         "endOffsets": "6256,6361,6429,6498,6581,6679,6748"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Ngassam\\.gradle\\caches\\transforms-1\\files-1.1\\facebook-login-4.41.0.aar\\08ba0954cf2b7dba67039082452d63a7\\res\\values-en-rGB\\values-en-rGB.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,190,302,377",
-                        "endColumns": "134,111,74,147",
-                        "endOffsets": "185,297,372,520"
-                    },
-                    "to": {
-                        "startLines": "29,30,31,32",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "2764,2899,3011,3086",
-                        "endColumns": "134,111,74,147",
-                        "endOffsets": "2894,3006,3081,3229"
                     }
                 },
                 {

@@ -5,8 +5,6 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/facebook-share-4.41.0.aar/97f1a483a37bb20885721f70454df1ea/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.android/facebook-share/4.41.0/de354350f0f71eeef9518456cf14b1ee79460e0d/facebook-share-4.41.0-sources.jar!/" />
-    </SOURCES>
+    <SOURCES />
   </library>
 </component>

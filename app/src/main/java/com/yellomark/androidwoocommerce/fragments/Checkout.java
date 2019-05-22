@@ -645,8 +645,8 @@ public class Checkout extends Fragment {
                 } else {
                     // Unexpected Response from Server
                     dialogLoader.hideProgressDialog();
-                    Snackbar.make(rootView, getString(R.string.cannot_get_payment_methods), Snackbar.LENGTH_LONG).show();
-                    Toast.makeText(getContext(), getString(R.string.cannot_get_payment_methods), Toast.LENGTH_SHORT).show();
+                  //  Snackbar.make(rootView, getString(R.string.cannot_get_payment_methods), Snackbar.LENGTH_LONG).show();
+                   // Toast.makeText(getContext(), getString(R.string.cannot_get_payment_methods), Toast.LENGTH_SHORT).show();
                 }
             }
             
@@ -690,8 +690,8 @@ public class Checkout extends Fragment {
                 } else {
                     // Unexpected Response from Server
                     dialogLoader.hideProgressDialog();
-                    Snackbar.make(rootView, getString(R.string.cannot_get_payment_methods), Snackbar.LENGTH_LONG).show();
-                    Toast.makeText(getContext(), getString(R.string.cannot_get_payment_methods), Toast.LENGTH_SHORT).show();
+                   // Snackbar.make(rootView, getString(R.string.cannot_get_payment_methods), Snackbar.LENGTH_LONG).show();
+                   // Toast.makeText(getContext(), getString(R.string.cannot_get_payment_methods), Toast.LENGTH_SHORT).show();
                 }
             }
             
